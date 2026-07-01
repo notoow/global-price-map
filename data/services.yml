@@ -19,3 +19,7 @@
 - id: disney-plus
   name: Disney+
   plan: Standard · 월정액
+
+- id: adobe-creative-cloud
+  name: Adobe Creative Cloud
+  plan: Pro/모든 앱 · 연간 월청구

@@ -4,6 +4,7 @@
 
 - **호스팅**: GitHub Pages (서버비 0원)
 - **자동화**: GitHub Actions — 환율 매일 갱신, 데이터 PR 검증, 자동 배포
+- **비교 대상**: YouTube Premium, Netflix, Spotify, Apple Music, Disney+, Adobe Creative Cloud
 - **스택**: Astro + TypeScript · Zod · pnpm · Frankfurter API
 
 ---
@@ -83,7 +84,7 @@ PR 설명에 스크린샷을 첨부하면 리뷰가 훨씬 빠릅니다.
 ```bash
 pnpm install
 pnpm run validate       # 스키마 검증
-pnpm run generate       # services.json 생성 (환율 캐시 사용)
+pnpm run generate       # services.json + sitemap/robots 생성
 pnpm run dev            # 개발 서버
 ```
 

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /global-price-map/
+
+Sitemap: https://notoow.github.io/global-price-map/sitemap.xml

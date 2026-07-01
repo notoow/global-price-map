@@ -1,19 +1,30 @@
 ---
 import "../styles/global.css";
+import { SITE, SITE_KEYWORDS, absoluteUrl, withBase } from "../lib/site.ts";
 
 interface Props {
   title: string;
   description?: string;
   ratesAsOf?: string;
+  image?: string;
+  imageAlt?: string;
+  type?: "website" | "article";
+  jsonLd?: Record<string, unknown> | Array<Record<string, unknown>>;
 }
 
 const {
   title,
-  description = "구독 서비스를 가장 싸게 살 수 있는 나라를 2초 만에 찾아요.",
+  description = SITE.description,
   ratesAsOf,
+  image = "/og-image.png",
+  imageAlt = "서브링크 구독 서비스 국가별 가격 비교",
+  type = "website",
+  jsonLd,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = absoluteUrl(image, Astro.site?.href ?? SITE.url);
+const jsonLdItems = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 const today = ratesAsOf ?? new Date().toISOString().slice(0, 10);
 ---
 
@@ -24,25 +35,47 @@ const today = ratesAsOf ?? new Date().toISOString().slice(0, 10);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="application-name" content={SITE.name} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="keywords" content={SITE_KEYWORDS.join(", ")} />
+    <meta name="format-detection" content="telephone=no" />
     <link rel="canonical" href={canonical} />
+    <link rel="alternate" href={canonical} hreflang={SITE.language} />
+    <link rel="alternate" href={canonical} hreflang="x-default" />
 
     <!-- Open Graph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:locale" content={SITE.locale} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:alt" content={imageAlt} />
+    <meta property="og:image:type" content="image/png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+    <meta name="twitter:image:alt" content={imageAlt} />
 
     <!-- 파비콘: public/favicon.svg에 직접 만들거나 교체하세요 -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={withBase("/favicon.svg")} />
 
     <!-- 색상 스킴 힌트 (모바일 브라우저 상태바) -->
     <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)" />
+    {jsonLdItems.map((item) => (
+      <script type="application/ld+json" set:html={JSON.stringify(item)} />
+    ))}
   </head>
 
   <body>
     <header class="site-header">
-      <a href="/" class="site-header__logo" aria-label="서브링크 홈">
+      <a href={withBase("/")} class="site-header__logo" aria-label="서브링크 홈">
         서브링크
       </a>
       <span class="site-header__meta">

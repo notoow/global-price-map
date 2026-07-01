@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">서브링크 구독 서비스 국가별 가격 비교</title>
+  <desc id="desc">YouTube Premium, Netflix, Spotify, Adobe Creative Cloud 등 구독 서비스 가격을 국가별 최저가 순위로 비교합니다.</desc>
+  <rect width="1200" height="630" fill="#f7f7f5"/>
+  <rect x="72" y="72" width="1056" height="486" rx="28" fill="#ffffff" stroke="#d9d9d2" stroke-width="2"/>
+  <text x="120" y="156" fill="#141412" font-family="Pretendard, Arial, sans-serif" font-size="32" font-weight="700">서브링크</text>
+  <text x="120" y="268" fill="#141412" font-family="Pretendard, Arial, sans-serif" font-size="74" font-weight="700">구독 서비스</text>
+  <text x="120" y="354" fill="#141412" font-family="Pretendard, Arial, sans-serif" font-size="74" font-weight="700">국가별 가격 비교</text>
+  <text x="120" y="430" fill="#5f625c" font-family="Pretendard, Arial, sans-serif" font-size="30">Adobe Creative Cloud, Netflix, YouTube Premium 최저가 순위</text>
+  <g transform="translate(812 176)">
+    <rect width="232" height="288" rx="24" fill="#141412"/>
+    <text x="32" y="68" fill="#ffffff" font-family="Pretendard, Arial, sans-serif" font-size="26" font-weight="700">최저가</text>
+    <circle cx="58" cy="128" r="28" fill="#2ecc71"/>
+    <text x="96" y="138" fill="#ffffff" font-family="Pretendard, Arial, sans-serif" font-size="34" font-weight="700">KRW</text>
+    <text x="32" y="218" fill="#ffffff" font-family="Pretendard, Arial, sans-serif" font-size="48" font-weight="700">↓ 63%</text>
+    <text x="32" y="254" fill="#bfc4bb" font-family="Pretendard, Arial, sans-serif" font-size="22">국가별 비교</text>
+  </g>
+</svg>

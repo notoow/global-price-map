@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T08:28:37.824Z",
+  "generatedAt": "2026-07-01T08:38:57.595Z",
   "ratesAsOf": "2026-06-30",
   "services": [
     {
@@ -593,6 +593,125 @@
           "taxIncluded": false,
           "sourceUrl": "https://www.disneyplus.com/",
           "checkedAt": "2026-06-30",
+          "isBaseline": false
+        }
+      ]
+    },
+    {
+      "id": "adobe-creative-cloud",
+      "name": "Adobe Creative Cloud",
+      "plan": "Pro/모든 앱 · 연간 월청구",
+      "offers": [
+        {
+          "country": "IN",
+          "countryName": "인도",
+          "currency": "INR",
+          "currencySymbol": "₹",
+          "price": 2714,
+          "priceLabel": "₹2,714",
+          "krwPrice": 44463,
+          "billingCycle": "monthly",
+          "taxIncluded": true,
+          "sourceUrl": "https://www.adobe.com/in/creativecloud/pro.html",
+          "checkedAt": "2026-07-01",
+          "isBaseline": false
+        },
+        {
+          "country": "TR",
+          "countryName": "튀르키예",
+          "currency": "TRY",
+          "currencySymbol": "₺",
+          "price": 1627.2,
+          "priceLabel": "₺1,627.2",
+          "krwPrice": 54078,
+          "billingCycle": "monthly",
+          "taxIncluded": true,
+          "sourceUrl": "https://www.adobe.com/tr/creativecloud/pro.html",
+          "checkedAt": "2026-07-01",
+          "isBaseline": false
+        },
+        {
+          "country": "PH",
+          "countryName": "필리핀",
+          "currency": "PHP",
+          "currencySymbol": "₱",
+          "price": 2144.8,
+          "priceLabel": "₱2,144.8",
+          "krwPrice": 54216,
+          "billingCycle": "monthly",
+          "taxIncluded": true,
+          "sourceUrl": "https://www.adobe.com/ph_en/creativecloud/pro.html",
+          "checkedAt": "2026-07-01",
+          "isBaseline": false
+        },
+        {
+          "country": "BR",
+          "countryName": "브라질",
+          "currency": "BRL",
+          "currencySymbol": "R$",
+          "price": 214,
+          "priceLabel": "R$214",
+          "krwPrice": 64072,
+          "billingCycle": "monthly",
+          "taxIncluded": true,
+          "sourceUrl": "https://www.adobe.com/br/creativecloud/pro.html",
+          "checkedAt": "2026-07-01",
+          "isBaseline": false
+        },
+        {
+          "country": "KR",
+          "countryName": "한국",
+          "currency": "KRW",
+          "currencySymbol": "₩",
+          "price": 78100,
+          "priceLabel": "₩78,100",
+          "krwPrice": 78100,
+          "billingCycle": "monthly",
+          "taxIncluded": true,
+          "sourceUrl": "https://www.adobe.com/kr/creativecloud.html",
+          "checkedAt": "2026-07-01",
+          "isBaseline": true
+        },
+        {
+          "country": "MX",
+          "countryName": "멕시코",
+          "currency": "MXN",
+          "currencySymbol": "MX$",
+          "price": 949,
+          "priceLabel": "MX$949",
+          "krwPrice": 84281,
+          "billingCycle": "monthly",
+          "taxIncluded": false,
+          "sourceUrl": "https://www.adobe.com/mx/creativecloud/pro.html",
+          "checkedAt": "2026-07-01",
+          "isBaseline": false
+        },
+        {
+          "country": "ID",
+          "countryName": "인도네시아",
+          "currency": "IDR",
+          "currencySymbol": "Rp",
+          "price": 1119990,
+          "priceLabel": "Rp1,119,990",
+          "krwPrice": 97020,
+          "billingCycle": "monthly",
+          "taxIncluded": true,
+          "sourceUrl": "https://www.adobe.com/id_en/creativecloud/pro.html",
+          "checkedAt": "2026-07-01",
+          "isBaseline": false
+        },
+        {
+          "country": "US",
+          "countryName": "미국",
+          "currency": "USD",
+          "currencySymbol": "$",
+          "price": 69.99,
+          "priceLabel": "$69.99",
+          "krwPrice": 109359,
+          "billingCycle": "monthly",
+          "taxIncluded": false,
+          "sourceUrl": "https://www.adobe.com/creativecloud/pro.html",
+          "checkedAt": "2026-07-01",
           "isBaseline": false
         }
       ]

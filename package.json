@@ -14,7 +14,7 @@
     "preview": "astro preview",
     "validate": "tsx scripts/validate-data.ts",
     "fetch-rates": "tsx scripts/fetch-rates.ts",
-    "generate": "tsx scripts/generate-data.ts"
+    "generate": "tsx scripts/generate-data.ts && tsx scripts/generate-seo.ts"
   },
   "dependencies": {
     "astro": "^7.0.3",

@@ -2,25 +2,72 @@
 import Layout from "../components/Layout.astro";
 import ServiceCard from "../components/ServiceCard.astro";
 import type { GeneratedData } from "../lib/schema.ts";
+import { SITE, absoluteUrl, withBase } from "../lib/site.ts";
 
 // 빌드 타임에 생성된 JSON을 그대로 import — Zero runtime, 번들 크기 없음
 import data from "../data/generated/services.json";
 
 const { services, ratesAsOf } = data as GeneratedData;
+
+const serviceItems = services.map((svc, index) => ({
+  "@type": "ListItem",
+  position: index + 1,
+  name: svc.name,
+  url: absoluteUrl(`/services/${svc.id}/`),
+  description: `${svc.name} ${svc.plan} 국가별 구독 가격 비교`,
+}));
+
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    name: SITE.name,
+    url: absoluteUrl("/"),
+    inLanguage: SITE.language,
+    description: SITE.description,
+    potentialAction: {
+      "@type": "SearchAction",
+      target: `${absoluteUrl("/")}?q={search_term_string}`,
+      "query-input": "required name=search_term_string",
+    },
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "구독 서비스 국가별 가격 비교 목록",
+    itemListElement: serviceItems,
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "구독 서비스 국가별 가격 비교 데이터",
+    url: absoluteUrl("/"),
+    inLanguage: SITE.language,
+    dateModified: ratesAsOf,
+    description: SITE.description,
+    keywords: "구독 서비스 가격 비교, 국가별 구독료, Adobe Creative Cloud 가격, Netflix 가격, YouTube Premium 가격",
+    creator: {
+      "@type": "Organization",
+      name: SITE.name,
+      url: absoluteUrl("/"),
+    },
+  },
+];
 ---
 
 <Layout
-  title="서브링크 — 구독 서비스 최저가 국가 비교"
-  description="YouTube Premium, Netflix, Spotify 등 구독 서비스를 가장 싸게 살 수 있는 나라를 한눈에 비교하세요."
+  title="구독 서비스 국가별 가격 비교 및 최저가 순위 — 서브링크"
+  description="YouTube Premium, Netflix, Spotify, Adobe Creative Cloud 등 구독 서비스의 국가별 월 가격을 KRW로 환산해 최저가 순위로 비교하세요."
   ratesAsOf={ratesAsOf}
+  jsonLd={jsonLd}
 >
   <!-- 히어로 타이틀 -->
   <section aria-labelledby="hero-title" style="text-align:center;padding-bottom:1.75rem;">
     <h1 id="hero-title" style="font-size:clamp(1.5rem,5vw,2rem);font-weight:500;letter-spacing:-0.025em;line-height:1.35;margin-bottom:0.4rem;">
-      해외 결제로<br>구독료 아끼기
+      구독 서비스<br>국가별 가격 비교
     </h1>
     <p style="font-size:14px;color:var(--text-muted);">
-      서비스를 고르면 국가별 최저가를 바로 보여드려요
+      YouTube, Netflix, Spotify, Adobe까지 KRW 환산 최저가 순위로 비교해요
     </p>
   </section>
 
@@ -35,7 +82,7 @@ const { services, ratesAsOf } = data as GeneratedData;
       id="svc-search"
       type="search"
       class="search-input"
-      placeholder="서비스 이름으로 검색 (유튜브, 넷플릭스...)"
+      placeholder="서비스 이름으로 검색 (유튜브, 넷플릭스, 어도비...)"
       autocomplete="off"
       spellcheck="false"
     />
@@ -54,10 +101,10 @@ const { services, ratesAsOf } = data as GeneratedData;
     <ul id="svc-grid" class="service-grid" style="list-style:none;">
       {services.map((svc) => (
         <li
-          data-search={`${svc.name} ${svc.id}`.toLowerCase()}
+          data-search={`${svc.name} ${svc.id} ${svc.plan}`.toLowerCase()}
           data-empty="false"
         >
-          <ServiceCard service={svc} href={`/services/${svc.id}/`} />
+          <ServiceCard service={svc} href={withBase(`/services/${svc.id}/`)} />
         </li>
       ))}
     </ul>
@@ -81,7 +128,7 @@ const { services, ratesAsOf } = data as GeneratedData;
   const grid = document.getElementById("svc-grid") as HTMLElement;
   const items = [...grid.querySelectorAll<HTMLElement>("li[data-search]")];
 
-  input.addEventListener("input", () => {
+  function filterServices() {
     const q = input.value.trim().toLowerCase();
     let visible = 0;
 
@@ -93,5 +140,13 @@ const { services, ratesAsOf } = data as GeneratedData;
 
     countEl.textContent = String(visible);
     emptyMsg.style.display = visible === 0 ? "block" : "none";
-  });
+  }
+
+  const initialQuery = new URLSearchParams(window.location.search).get("q");
+  if (initialQuery) {
+    input.value = initialQuery;
+    filterServices();
+  }
+
+  input.addEventListener("input", filterServices);
 </script>
