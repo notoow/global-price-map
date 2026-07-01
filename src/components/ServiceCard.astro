@@ -1,0 +1,62 @@
+---
+import CountryDot from "./CountryDot.astro";
+import type { ServiceWithOffers } from "../lib/schema.ts";
+
+interface Props {
+  service: ServiceWithOffers;
+  href: string;
+}
+
+const { service, href } = Astro.props;
+
+const cheapest = service.offers[0];
+const baseline = service.offers.find((o) => o.isBaseline);
+
+const saving =
+  cheapest && baseline && cheapest.country !== baseline.country
+    ? Math.round((1 - cheapest.krwPrice / baseline.krwPrice) * 100)
+    : null;
+
+const fmt = (n: number) => n.toLocaleString("ko-KR");
+---
+
+<a href={href} class="svc-card" aria-label={`${service.name} — 최저가 ${cheapest?.countryName ?? "—"} ₩${cheapest ? fmt(cheapest.krwPrice) : "—"}`}>
+  <div class="svc-card__header">
+    <span class="svc-card__name">{service.name}</span>
+    <!-- 오른쪽 화살표 -->
+    <svg class="svc-card__arrow" width="15" height="15" viewBox="0 0 24 24" fill="none"
+      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
+      aria-hidden="true">
+      <path d="M5 12h14M12 5l7 7-7 7"/>
+    </svg>
+  </div>
+
+  <div class="svc-card__body">
+    <div>
+      <p class="svc-card__label">최저가 국가</p>
+      {cheapest ? (
+        <div style="display:flex;align-items:center;gap:6px;">
+          <CountryDot code={cheapest.country} size={20} />
+          <span style="font-size:13px;color:var(--text-primary);">{cheapest.countryName}</span>
+        </div>
+      ) : (
+        <span style="font-size:13px;color:var(--text-muted);">—</span>
+      )}
+    </div>
+
+    <div style="text-align:right;">
+      {cheapest ? (
+        <>
+          <div class="svc-card__krw">₩{fmt(cheapest.krwPrice)}</div>
+          {saving !== null ? (
+            <div class="svc-card__saving">한국 대비 -{saving}%</div>
+          ) : (
+            <div class="svc-card__saving" style="color:var(--text-muted);">기준 국가</div>
+          )}
+        </>
+      ) : (
+        <span class="text-muted" style="font-size:13px;">데이터 없음</span>
+      )}
+    </div>
+  </div>
+</a>

@@ -1,0 +1,63 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  ratesAsOf?: string;
+}
+
+const {
+  title,
+  description = "구독 서비스를 가장 싸게 살 수 있는 나라를 2초 만에 찾아요.",
+  ratesAsOf,
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const today = ratesAsOf ?? new Date().toISOString().slice(0, 10);
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+
+    <!-- 파비콘: public/favicon.svg에 직접 만들거나 교체하세요 -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- 색상 스킴 힌트 (모바일 브라우저 상태바) -->
+    <meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#111110" media="(prefers-color-scheme: dark)" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="/" class="site-header__logo" aria-label="서브링크 홈">
+        서브링크
+      </a>
+      <span class="site-header__meta">
+        {/* 새로고침 아이콘 */}
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
+          <path d="M3 3v5h5" />
+        </svg>
+        {today} 기준
+      </span>
+    </header>
+
+    <main class="container" style="padding-top: 1.75rem; padding-bottom: 3rem;">
+      <slot />
+    </main>
+  </body>
+</html>

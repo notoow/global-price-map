@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# generated data is intentionally COMMITTED (it's the whole point of the
+# git-as-database design) — do NOT add src/data/generated/*.json here.
+
+# logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# local archives / inspection
+*.tar.gz
+.sublink-inspect/
+
+# OS
+.DS_Store
+
+# env
+.env
+.env.*
+!.env.example

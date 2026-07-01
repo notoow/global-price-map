@@ -1,0 +1,21 @@
+# 서비스 카탈로그. 가격이 아니라 "어떤 서비스를 추적하는지"에 대한 메타데이터라
+# data/raw/ 밖에 둔다. 새 서비스를 추가할 때만 건드리면 됨.
+- id: youtube-premium
+  name: YouTube Premium
+  plan: 개인 · 월정액
+
+- id: netflix
+  name: Netflix
+  plan: Standard · 월정액
+
+- id: spotify-premium
+  name: Spotify Premium
+  plan: 개인 · 월정액
+
+- id: apple-music
+  name: Apple Music
+  plan: 개인 · 월정액
+
+- id: disney-plus
+  name: Disney+
+  plan: Standard · 월정액

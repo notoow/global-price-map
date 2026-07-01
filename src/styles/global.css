@@ -1,0 +1,501 @@
+/*
+  Pretendard Variable — CDN에서 로드 (패키지를 public에 복사하는 번거로움 없이)
+  자체 호스팅하려면 npm 패키지 내 dist/web/variable/woff2-dynamic-subset/ 파일을
+  public/fonts/에 복사하고 url()을 상대 경로로 교체하면 됩니다.
+*/
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.css");
+
+/* ── 디자인 토큰 ── */
+:root {
+  /* typography */
+  --font-sans: "Pretendard Variable", "Pretendard", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", system-ui, sans-serif;
+
+  /* spacing / shape */
+  --radius-sm: 6px;
+  --radius: 10px;
+  --radius-lg: 14px;
+  --radius-pill: 9999px;
+
+  /* layout */
+  --max-w: 720px;
+  --px: 1.25rem;
+
+  /* 라이트 팔레트 */
+  --bg:          #f7f7f5;
+  --surface-1:   #ffffff;
+  --surface-2:   #ffffff;
+  --surface-muted: #f2f2f0;
+
+  --text-primary:   #111110;
+  --text-secondary: #444443;
+  --text-muted:     #888886;
+
+  --border:       rgba(0, 0, 0, 0.09);
+  --border-strong: rgba(0, 0, 0, 0.2);
+
+  /* 시맨틱 — 절약/성공 */
+  --text-success:   #1a7d49;
+  --bg-success:     #edfaf2;
+  --border-success: #6dcf9e;
+  --fill-success:   #2db96e;
+
+  /* 시맨틱 — 경고 (한국보다 비쌈) */
+  --text-warning:   #a04200;
+  --bg-warning:     #fff5ee;
+
+  /* 국가 도트 색상 — locale-data.ts의 CC 객체와 동기화 */
+  --dot-kr: #534ab7;
+  --dot-us: #5f5e5a;
+  --dot-in: #1d9e75;
+  --dot-ph: #378add;
+  --dot-id: #c45a1e;
+  --dot-br: #3b6d11;
+  --dot-tr: #a32d2d;
+  --dot-mx: #ba7517;
+  --dot-jp: #c94040;
+  --dot-gb: #1a4fa3;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:          #111110;
+    --surface-1:   #1a1a19;
+    --surface-2:   #222221;
+    --surface-muted: #2a2a28;
+
+    --text-primary:   #f0efec;
+    --text-secondary: #b0afa9;
+    --text-muted:     #666663;
+
+    --border:       rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.18);
+
+    --text-success:   #4dd88a;
+    --bg-success:     #0d2e1c;
+    --border-success: #2d7d4f;
+    --fill-success:   #2db96e;
+
+    --text-warning:   #f4874d;
+    --bg-warning:     #2a1500;
+  }
+}
+
+/* ── 리셋 ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: none;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  min-height: 100dvh;
+  line-height: 1.6;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* ── 레이아웃 컨테이너 ── */
+.container {
+  width: 100%;
+  max-width: var(--max-w);
+  margin: 0 auto;
+  padding: 0 var(--px);
+}
+
+/* ── 헤더 ── */
+.site-header {
+  padding: 1rem var(--px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid var(--border);
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.site-header__logo {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+
+.site-header__meta {
+  font-size: 12px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* ── 검색창 ── */
+.search-wrap {
+  position: relative;
+}
+
+.search-wrap__icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 17px;
+  height: 17px;
+  color: var(--text-muted);
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.65rem 0.875rem 0.65rem 38px;
+  background: var(--surface-1);
+  border: 0.5px solid var(--border-strong);
+  border-radius: var(--radius);
+  color: var(--text-primary);
+  transition: border-color 0.15s, box-shadow 0.15s;
+  outline: none;
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.search-input:focus {
+  border-color: var(--fill-success);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--fill-success) 15%, transparent);
+}
+
+/* ── 서비스 그리드 ── */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  gap: 10px;
+}
+
+/* ── 서비스 카드 ── */
+.svc-card {
+  background: var(--surface-1);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.1rem 1.2rem;
+  cursor: pointer;
+  display: block;
+  transition: border-color 0.15s, box-shadow 0.12s;
+  text-align: left;
+  width: 100%;
+  color: inherit;
+}
+
+.svc-card:hover,
+.svc-card:focus-visible {
+  border-color: var(--border-strong);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  outline: none;
+}
+
+.svc-card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.svc-card__name {
+  font-size: 13.5px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.svc-card__arrow {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}
+
+.svc-card__body {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.svc-card__label {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-bottom: 5px;
+}
+
+.svc-card__krw {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.svc-card__saving {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-success);
+  margin-top: 3px;
+}
+
+/* ── 국가 도트 ── */
+.dot {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-weight: 500;
+  flex-shrink: 0;
+  line-height: 1;
+  font-size: 9px;
+}
+
+/* ── 국가별 순위 페이지 ── */
+.rank-hero {
+  background: var(--surface-1);
+  border: 2px solid var(--border-success);
+  border-radius: var(--radius-lg);
+  padding: 1.4rem 1.5rem;
+  margin-bottom: 10px;
+}
+
+.rank-hero__badge {
+  display: inline-block;
+  background: var(--bg-success);
+  color: var(--text-success);
+  font-size: 11px;
+  font-weight: 500;
+  padding: 3px 10px;
+  border-radius: var(--radius-pill);
+  margin-bottom: 14px;
+}
+
+.rank-hero__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.rank-hero__country-row {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 8px;
+}
+
+.rank-hero__country-name {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.rank-hero__price-local {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.rank-hero__saving-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rank-hero__bar-track {
+  flex: 1;
+  height: 3px;
+  background: var(--border-strong);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.rank-hero__bar-fill {
+  height: 100%;
+  background: var(--fill-success);
+  border-radius: 2px;
+  transition: width 0.4s ease;
+}
+
+.rank-hero__saving-label {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-success);
+  white-space: nowrap;
+}
+
+.rank-hero__krw {
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.rank-hero__krw-price {
+  font-size: 34px;
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.rank-hero__krw-unit {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-top: 3px;
+}
+
+/* ── 2·3위 그리드 ── */
+.runner-grid {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.runner-card {
+  background: var(--surface-1);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.1rem 1.25rem;
+}
+
+.runner-card__rank {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.runner-card__country-row {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+
+.runner-card__country-name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.runner-card__krw {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 2px;
+}
+
+.runner-card__local {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+}
+
+.runner-card__saving {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* ── 나머지 순위 목록 ── */
+.rank-list {
+  background: var(--surface-1);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.rank-list__row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 11px 1.25rem;
+  border-bottom: 0.5px solid var(--border);
+}
+
+.rank-list__row:last-child {
+  border-bottom: none;
+}
+
+.rank-list__num {
+  font-size: 11px;
+  color: var(--text-muted);
+  min-width: 22px;
+  text-align: center;
+}
+
+.rank-list__country {
+  font-size: 14px;
+  color: var(--text-primary);
+  flex: 1;
+}
+
+.rank-list__badge {
+  font-size: 11px;
+  color: var(--text-muted);
+  background: var(--surface-muted);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  border: 0.5px solid var(--border);
+}
+
+.rank-list__krw {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.rank-list__saving {
+  font-size: 12px;
+  font-weight: 500;
+  min-width: 52px;
+  text-align: right;
+}
+
+/* ── 푸터 주석 ── */
+.footnote {
+  font-size: 11px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  padding-top: 1rem;
+  border-top: 0.5px solid var(--border);
+  margin-top: 1.5rem;
+}
+
+/* ── 유틸 ── */
+.text-success { color: var(--text-success); }
+.text-warning { color: var(--text-warning); }
+.text-muted   { color: var(--text-muted); }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+/* ── 반응형 ── */
+@media (max-width: 480px) {
+  .rank-hero__krw-price { font-size: 28px; }
+  .service-grid { grid-template-columns: 1fr 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

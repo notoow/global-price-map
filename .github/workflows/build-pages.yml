@@ -1,0 +1,71 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# GitHub Pages 배포에 필요한 최소 권한
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 동시에 두 배포가 겹치지 않도록 (진행 중인 배포는 취소하지 않고 기다림)
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Validate → Generate → Astro Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # 배포 전 데이터 무결성 보장 (PR 검증과 동일한 스크립트)
+      - name: Validate YAML data
+        run: pnpm run validate
+
+      # 환율은 이미 캐시(data/.cache/rates.json)에 있을 수도 있고,
+      # 라이브 호출이 되면 갱신됨. 어떻게 됐든 generate까지 이어짐.
+      - name: Fetch latest exchange rates
+        run: pnpm run fetch-rates
+
+      - name: Generate services.json
+        run: pnpm run generate
+
+      # astro.config.mjs의 site/base 값이 실제 레포와 맞아야 경로가 올바름
+      - name: Build Astro site
+        run: pnpm run build
+
+      # GitHub Pages 배포용 아티팩트 업로드
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist/
+
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,12 @@
+# ⚠️ 샘플 데이터입니다. 실제 가격이 아닙니다.
+# 머지 전 sourceUrl에서 현지 가격을 직접 재확인하고 checkedAt을 갱신하세요.
+service: apple-music
+country: US
+currency: USD
+plans:
+  - id: individual-monthly
+    price: 10.99
+    billingCycle: monthly
+    taxIncluded: false
+sourceUrl: https://www.apple.com/apple-music/
+checkedAt: 2026-06-30

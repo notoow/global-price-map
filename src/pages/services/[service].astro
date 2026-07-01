@@ -1,0 +1,160 @@
+---
+import Layout from "../../components/Layout.astro";
+import CountryDot from "../../components/CountryDot.astro";
+import type { GeneratedData, CountryOffer } from "../../lib/schema.ts";
+import data from "../../data/generated/services.json";
+
+const { services, ratesAsOf } = data as GeneratedData;
+
+// getStaticPaths — 빌드 타임에 서비스별 경로를 생성
+// data를 직접 참조 (구조분해 변수 services는 getStaticPaths 번들 범위 밖)
+export function getStaticPaths() {
+  return (data as GeneratedData).services.map((svc) => ({
+    params: { service: svc.id },
+    props: { svc },
+  }));
+}
+
+const { svc } = Astro.props;
+const offers: CountryOffer[] = svc.offers; // 이미 krwPrice 오름차순 정렬됨
+
+const [first, second, third, ...rest] = offers;
+const baseline = offers.find((o) => o.isBaseline);
+
+const fmt = (n: number) => n.toLocaleString("ko-KR");
+
+function saving(offer: CountryOffer): number | null {
+  if (!baseline || offer.isBaseline) return null;
+  return Math.round((1 - offer.krwPrice / baseline.krwPrice) * 100);
+}
+
+function savingLabel(offer: CountryOffer): { text: string; cls: string } {
+  const pct = saving(offer);
+  if (pct === null) return { text: "기준 국가", cls: "text-muted" };
+  if (pct > 0) return { text: `↓ ${pct}% 절약`, cls: "text-success" };
+  return { text: `↑ ${Math.abs(pct)}% 비쌈`, cls: "text-warning" };
+}
+---
+
+<Layout
+  title={`${svc.name} 국가별 최저가 — 서브링크`}
+  description={`${svc.name}을 가장 싸게 살 수 있는 나라는? ${offers.length}개국 가격을 한눈에 비교하세요.`}
+  ratesAsOf={ratesAsOf}
+>
+  <!-- 뒤로가기 + 제목 -->
+  <nav aria-label="상위 페이지" style="margin-bottom:1.5rem;">
+    <a href="/"
+      style="display:inline-flex;align-items:center;gap:5px;font-size:13px;color:var(--text-muted);">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+        stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M19 12H5M12 5l-7 7 7 7"/>
+      </svg>
+      전체 서비스
+    </a>
+  </nav>
+
+  <hgroup style="margin-bottom:1.25rem;">
+    <h1 style="font-size:1.35rem;font-weight:500;letter-spacing:-0.02em;">{svc.name}</h1>
+    <p style="font-size:13px;color:var(--text-muted);margin-top:3px;">
+      {svc.plan} · {offers.length}개국 비교
+    </p>
+  </hgroup>
+
+  <!-- 1위 히어로 -->
+  {first && (
+    <section class="rank-hero" aria-label="최저가 국가">
+      <div class="rank-hero__badge">최저가</div>
+
+      <div class="rank-hero__top">
+        <div style="flex:1;min-width:0;">
+          <div class="rank-hero__country-row">
+            <CountryDot code={first.country} size={38} />
+            <span class="rank-hero__country-name">{first.countryName}</span>
+          </div>
+
+          <p class="rank-hero__price-local">
+            {first.priceLabel} · {first.currency}/월
+          </p>
+
+          {saving(first) !== null && (
+            <div class="rank-hero__saving-bar">
+              <div class="rank-hero__bar-track">
+                <div
+                  class="rank-hero__bar-fill"
+                  style={`width:${Math.min(99, Math.max(1, saving(first)!))}%`}
+                />
+              </div>
+              <span class="rank-hero__saving-label">
+                한국 대비 {saving(first)}% 절약
+              </span>
+            </div>
+          )}
+        </div>
+
+        <div class="rank-hero__krw">
+          <div class="rank-hero__krw-price">₩{fmt(first.krwPrice)}</div>
+          <div class="rank-hero__krw-unit">/월</div>
+        </div>
+      </div>
+    </section>
+  )}
+
+  <!-- 2·3위 러너업 그리드 -->
+  {(second || third) && (
+    <div
+      class="runner-grid"
+      style={`grid-template-columns:${[second, third].filter(Boolean).length === 2 ? "1fr 1fr" : "1fr"};`}
+    >
+      {[second, third].filter(Boolean).map((offer, i) => {
+        const sl = savingLabel(offer);
+        return (
+          <div class="runner-card">
+            <div class="runner-card__rank">{i + 2}위</div>
+            <div class="runner-card__country-row">
+              <CountryDot code={offer.country} size={28} />
+              <span class="runner-card__country-name">{offer.countryName}</span>
+            </div>
+            <div class="runner-card__krw">₩{fmt(offer.krwPrice)}</div>
+            <div class="runner-card__local">{offer.priceLabel} · {offer.currency}</div>
+            <div class={`runner-card__saving ${sl.cls}`}>{sl.text}</div>
+          </div>
+        );
+      })}
+    </div>
+  )}
+
+  <!-- 나머지 순위 목록 -->
+  {rest.length > 0 && (
+    <div class="rank-list" role="list" aria-label="전체 국가 순위">
+      {rest.map((offer, i) => {
+        const sl = savingLabel(offer);
+        return (
+          <div class="rank-list__row" role="listitem">
+            <span class="rank-list__num">{i + 4}위</span>
+            <CountryDot code={offer.country} size={24} />
+            <span class="rank-list__country">{offer.countryName}</span>
+            {offer.isBaseline && (
+              <span class="rank-list__badge">기준</span>
+            )}
+            <span class="rank-list__krw">₩{fmt(offer.krwPrice)}</span>
+            <span class={`rank-list__saving ${sl.cls}`}>{sl.text}</span>
+          </div>
+        );
+      })}
+    </div>
+  )}
+
+  <!-- 출처 링크 & 주석 -->
+  <p class="footnote">
+    공식 가격 페이지 기준 수동 검증 · KRW 환산 Frankfurter API (매일 갱신) ·
+    최종 확인일 {offers[0]?.checkedAt ?? "—"} ·
+    {offers[0] && (
+      <a href={offers[0].sourceUrl} target="_blank" rel="noopener noreferrer"
+        style="color:inherit;text-decoration:underline;text-decoration-color:var(--border-strong);">
+        공식 가격 페이지 바로가기 ↗
+      </a>
+    )}
+    <br />
+    일부 국가는 현지 결제 수단 또는 VPN이 필요할 수 있어요. 구매 전 이용약관을 확인하세요.
+  </p>
+</Layout>

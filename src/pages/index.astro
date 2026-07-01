@@ -1,0 +1,97 @@
+---
+import Layout from "../components/Layout.astro";
+import ServiceCard from "../components/ServiceCard.astro";
+import type { GeneratedData } from "../lib/schema.ts";
+
+// 빌드 타임에 생성된 JSON을 그대로 import — Zero runtime, 번들 크기 없음
+import data from "../data/generated/services.json";
+
+const { services, ratesAsOf } = data as GeneratedData;
+---
+
+<Layout
+  title="서브링크 — 구독 서비스 최저가 국가 비교"
+  description="YouTube Premium, Netflix, Spotify 등 구독 서비스를 가장 싸게 살 수 있는 나라를 한눈에 비교하세요."
+  ratesAsOf={ratesAsOf}
+>
+  <!-- 히어로 타이틀 -->
+  <section aria-labelledby="hero-title" style="text-align:center;padding-bottom:1.75rem;">
+    <h1 id="hero-title" style="font-size:clamp(1.5rem,5vw,2rem);font-weight:500;letter-spacing:-0.025em;line-height:1.35;margin-bottom:0.4rem;">
+      해외 결제로<br>구독료 아끼기
+    </h1>
+    <p style="font-size:14px;color:var(--text-muted);">
+      서비스를 고르면 국가별 최저가를 바로 보여드려요
+    </p>
+  </section>
+
+  <!-- 검색창 -->
+  <div class="search-wrap" style="margin-bottom:1.5rem;" role="search">
+    <label for="svc-search" class="visually-hidden">서비스 검색</label>
+    <svg class="search-wrap__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    </svg>
+    <input
+      id="svc-search"
+      type="search"
+      class="search-input"
+      placeholder="서비스 이름으로 검색 (유튜브, 넷플릭스...)"
+      autocomplete="off"
+      spellcheck="false"
+    />
+  </div>
+
+  <!-- 그리드 헤더 -->
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">
+    <p style="font-size:13px;color:var(--text-secondary);">
+      전체 <span id="count">{services.length}</span>개 서비스
+    </p>
+    <p style="font-size:12px;color:var(--text-muted);">최저가순 정렬</p>
+  </div>
+
+  <!-- 서비스 카드 그리드 -->
+  <section aria-label="서비스 목록">
+    <ul id="svc-grid" class="service-grid" style="list-style:none;">
+      {services.map((svc) => (
+        <li
+          data-search={`${svc.name} ${svc.id}`.toLowerCase()}
+          data-empty="false"
+        >
+          <ServiceCard service={svc} href={`/services/${svc.id}/`} />
+        </li>
+      ))}
+    </ul>
+    <p id="empty-msg" style="display:none;text-align:center;padding:2.5rem 0;color:var(--text-muted);font-size:14px;">
+      검색 결과가 없어요
+    </p>
+  </section>
+
+  <!-- 업데이트 주석 -->
+  <p class="footnote">
+    KRW 환산 Frankfurter API 매일 갱신 · 가격은 공식 가격 페이지 기준 수동 검증 ·
+    구매 전 현지 이용약관 및 VPN 정책을 확인하세요
+  </p>
+</Layout>
+
+<script>
+  // 서버 렌더링된 항목을 클라이언트에서 필터링 (JS 없이도 전체 목록이 보임)
+  const input = document.getElementById("svc-search") as HTMLInputElement;
+  const countEl = document.getElementById("count") as HTMLElement;
+  const emptyMsg = document.getElementById("empty-msg") as HTMLElement;
+  const grid = document.getElementById("svc-grid") as HTMLElement;
+  const items = [...grid.querySelectorAll<HTMLElement>("li[data-search]")];
+
+  input.addEventListener("input", () => {
+    const q = input.value.trim().toLowerCase();
+    let visible = 0;
+
+    for (const li of items) {
+      const match = !q || li.dataset.search!.includes(q);
+      li.hidden = !match;
+      if (match) visible++;
+    }
+
+    countEl.textContent = String(visible);
+    emptyMsg.style.display = visible === 0 ? "block" : "none";
+  });
+</script>
