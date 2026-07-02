@@ -1,0 +1,2891 @@
+{
+  "generatedAt": "2026-07-02T07:48:49.035Z",
+  "source": "ios_app_store",
+  "facts": [
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "AR",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 19.99,
+          "displayPrice": "USD 19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ar/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 29.99,
+          "displayPrice": "$29.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 99.9,
+          "displayPrice": "R$ 99,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 24.99,
+          "displayPrice": "$24.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 22.99,
+          "displayPrice": "22,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 179,
+          "displayPrice": "179,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 999.99,
+          "displayPrice": "EGP 999.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 22.99,
+          "displayPrice": "22,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 19.99,
+          "displayPrice": "£19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 349000,
+          "displayPrice": "Rp 349ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 1999,
+          "displayPrice": "₹ 1,999",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 3000,
+          "displayPrice": "¥3,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 29000,
+          "displayPrice": "￦29,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 399,
+          "displayPrice": "$399.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 99.9,
+          "displayPrice": "RM99.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "NG",
+      "currency": "NGN",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 31500,
+          "displayPrice": "₦ 31,500.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ng/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 39.99,
+          "displayPrice": "$39.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 999,
+          "displayPrice": "₱ 999.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 4900,
+          "displayPrice": "Rs 4,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "PL",
+      "currency": "PLN",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 99.99,
+          "displayPrice": "99,99 zł",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pl/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 29.98,
+          "displayPrice": "S$ 29.98",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 699,
+          "displayPrice": "฿699.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 999.99,
+          "displayPrice": "₺999,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 690,
+          "displayPrice": "$690.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 19.99,
+          "displayPrice": "$19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "chatgpt-plus-ios",
+      "country": "ZA",
+      "currency": "ZAR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 399.99,
+          "displayPrice": "R399.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/za/app/chatgpt/id6448311069",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "AR",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "USD 20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ar/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 30,
+          "displayPrice": "$30.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 129.9,
+          "displayPrice": "R$ 129,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 28,
+          "displayPrice": "$28.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 22,
+          "displayPrice": "22,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 179,
+          "displayPrice": "179,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 999.99,
+          "displayPrice": "EGP 999.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 22,
+          "displayPrice": "22,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "£20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 349000,
+          "displayPrice": "Rp 349ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 1999,
+          "displayPrice": "₹ 1,999",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 3000,
+          "displayPrice": "¥3,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 33000,
+          "displayPrice": "￦33,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 399,
+          "displayPrice": "$399.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 99.9,
+          "displayPrice": "RM99.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "NG",
+      "currency": "NGN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 29900,
+          "displayPrice": "₦ 29,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ng/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 40,
+          "displayPrice": "$40.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 1290,
+          "displayPrice": "₱ 1,290.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 4900,
+          "displayPrice": "Rs 4,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "PL",
+      "currency": "PLN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 99.99,
+          "displayPrice": "99,99 zł",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pl/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 29.98,
+          "displayPrice": "S$ 29.98",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 699,
+          "displayPrice": "฿699.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 999.99,
+          "displayPrice": "₺999,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 690,
+          "displayPrice": "$690.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "$20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "claude-pro-ios",
+      "country": "ZA",
+      "currency": "ZAR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 399.99,
+          "displayPrice": "R399.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/za/app/claude-by-anthropic/id6473753684",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "AR",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 19.99,
+          "displayPrice": "USD 19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ar/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 32.99,
+          "displayPrice": "$32.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 96.9,
+          "displayPrice": "R$ 96,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 26.99,
+          "displayPrice": "$26.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 21.99,
+          "displayPrice": "21,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 169,
+          "displayPrice": "169,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 699.99,
+          "displayPrice": "EGP 699.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 21.99,
+          "displayPrice": "21,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 18.99,
+          "displayPrice": "£18.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "HK",
+      "currency": "HKD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 158,
+          "displayPrice": "HK$ 158.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/hk/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 309000,
+          "displayPrice": "Rp 309ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 1950,
+          "displayPrice": "₹ 1,950",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 2900,
+          "displayPrice": "¥2,900",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 29000,
+          "displayPrice": "￦29,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 395,
+          "displayPrice": "$395.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 97.9,
+          "displayPrice": "RM97.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "NG",
+      "currency": "NGN",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 28500,
+          "displayPrice": "₦ 28,500.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ng/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 36.99,
+          "displayPrice": "$36.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 1100,
+          "displayPrice": "₱ 1,100.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 5600,
+          "displayPrice": "Rs 5,600.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "PL",
+      "currency": "PLN",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 97.99,
+          "displayPrice": "97,99 zł",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pl/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 28.9,
+          "displayPrice": "S$ 28.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 750,
+          "displayPrice": "฿750.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 719.99,
+          "displayPrice": "₺719,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 650,
+          "displayPrice": "$650.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 19.99,
+          "displayPrice": "$19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "gemini-ai-pro-ios",
+      "country": "ZA",
+      "currency": "ZAR",
+      "plans": [
+        {
+          "id": "ai-pro-monthly",
+          "price": 429.99,
+          "displayPrice": "R429.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/za/app/google-gemini/id6477489729",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "AR",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 30,
+          "displayPrice": "USD 30.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ar/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 50,
+          "displayPrice": "$50.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 149.9,
+          "displayPrice": "R$ 149,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 40,
+          "displayPrice": "$40.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 35,
+          "displayPrice": "35,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 249,
+          "displayPrice": "249,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 1499.99,
+          "displayPrice": "EGP 1,499.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 35,
+          "displayPrice": "35,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 30,
+          "displayPrice": "£30.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "HK",
+      "currency": "HKD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 228,
+          "displayPrice": "HK$ 228.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/hk/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 499000,
+          "displayPrice": "Rp 499ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 700,
+          "displayPrice": "₹ 700",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 5000,
+          "displayPrice": "¥5,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 44000,
+          "displayPrice": "￦44,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 599,
+          "displayPrice": "$599.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 129.9,
+          "displayPrice": "RM129.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "NG",
+      "currency": "NGN",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 49900,
+          "displayPrice": "₦ 49,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ng/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 50,
+          "displayPrice": "$50.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 1790,
+          "displayPrice": "₱ 1,790.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 7900,
+          "displayPrice": "Rs 7,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "PL",
+      "currency": "PLN",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 149.99,
+          "displayPrice": "149,99 zł",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pl/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 39.98,
+          "displayPrice": "S$ 39.98",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 999,
+          "displayPrice": "฿999.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 1299.99,
+          "displayPrice": "₺1.299,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 990,
+          "displayPrice": "$990.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 30,
+          "displayPrice": "$30.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "grok-supergrok-ios",
+      "country": "ZA",
+      "currency": "ZAR",
+      "plans": [
+        {
+          "id": "supergrok-monthly",
+          "price": 599.99,
+          "displayPrice": "R599.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/za/app/grok-ai-chat-video/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "AR",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "USD 20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ar/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 30,
+          "displayPrice": "$30.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 129.9,
+          "displayPrice": "R$ 129,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 25,
+          "displayPrice": "$25.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 22,
+          "displayPrice": "22,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 179,
+          "displayPrice": "179,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 999.99,
+          "displayPrice": "EGP 999.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 22,
+          "displayPrice": "22,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "£20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "HK",
+      "currency": "HKD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 148,
+          "displayPrice": "HK$ 148.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/hk/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 349000,
+          "displayPrice": "Rp 349ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 1999,
+          "displayPrice": "₹ 1,999",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 3000,
+          "displayPrice": "¥3,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 33000,
+          "displayPrice": "￦33,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 399,
+          "displayPrice": "$399.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 99.9,
+          "displayPrice": "RM99.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "NG",
+      "currency": "NGN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 29900,
+          "displayPrice": "₦ 29,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ng/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 40,
+          "displayPrice": "$40.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 1290,
+          "displayPrice": "₱ 1,290.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 4900,
+          "displayPrice": "Rs 4,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "PL",
+      "currency": "PLN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 99.99,
+          "displayPrice": "99,99 zł",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pl/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 29.98,
+          "displayPrice": "S$ 29.98",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 699,
+          "displayPrice": "฿699.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 999.99,
+          "displayPrice": "₺999,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 690,
+          "displayPrice": "$690.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "$20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "perplexity-pro-ios",
+      "country": "ZA",
+      "currency": "ZAR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 399.99,
+          "displayPrice": "R399.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/za/app/perplexity-ai-search-chat/id1668000334",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "AR",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 10,
+          "displayPrice": "USD 10.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ar/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 15,
+          "displayPrice": "$15.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 59.9,
+          "displayPrice": "R$ 59,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 14,
+          "displayPrice": "$14.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 10,
+          "displayPrice": "10,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 89,
+          "displayPrice": "89,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 499.99,
+          "displayPrice": "EGP 499.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 10,
+          "displayPrice": "10,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 10,
+          "displayPrice": "£10.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "HK",
+      "currency": "HKD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 88,
+          "displayPrice": "HK$ 88.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/hk/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 169000,
+          "displayPrice": "Rp 169ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 999,
+          "displayPrice": "₹ 999",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 1500,
+          "displayPrice": "¥1,500",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 14000,
+          "displayPrice": "￦14,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 199,
+          "displayPrice": "$199.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 49.9,
+          "displayPrice": "RM49.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "NG",
+      "currency": "NGN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 14900,
+          "displayPrice": "₦ 14,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ng/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "$20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 599,
+          "displayPrice": "₱ 599.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 2900,
+          "displayPrice": "Rs 2,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "PL",
+      "currency": "PLN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 49.99,
+          "displayPrice": "49,99 zł",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pl/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 14.98,
+          "displayPrice": "S$ 14.98",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 399,
+          "displayPrice": "฿399.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 499.99,
+          "displayPrice": "₺499,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 320,
+          "displayPrice": "$320.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 10,
+          "displayPrice": "$10.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    },
+    {
+      "service": "suno-pro-ios",
+      "country": "ZA",
+      "currency": "ZAR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 199.99,
+          "displayPrice": "R199.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/za/app/suno-ai-songs-music/id6480136315",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-02"
+    }
+  ],
+  "stats": {
+    "fetched": 160,
+    "reused": 0,
+    "missing": 2
+  }
+}

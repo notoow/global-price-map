@@ -39,6 +39,9 @@ jobs:
 
       # 환율은 이미 캐시(data/.cache/rates.json)에 있을 수도 있고,
       # 라이브 호출이 되면 갱신됨. 어떻게 됐든 generate까지 이어짐.
+      - name: Fetch App Store prices
+        run: pnpm run fetch-app-store
+
       - name: Fetch latest exchange rates
         run: pnpm run fetch-rates
 

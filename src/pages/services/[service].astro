@@ -23,6 +23,9 @@ const [first, second, third, ...rest] = offers;
 const baseline = offers.find((o) => o.isBaseline);
 const serviceUrl = absoluteUrl(`/services/${svc.id}/`);
 const latestCheckedAt = offers.map((o) => o.checkedAt).sort().at(-1) ?? "—";
+const sourceNames = [
+  ...new Set(offers.map((o) => o.sourceName ?? (o.sourceType === "ios_app_store" ? "iOS App Store" : "공식 가격 페이지"))),
+].join(", ");
 
 const fmt = (n: number) => n.toLocaleString("ko-KR");
 
@@ -214,12 +217,12 @@ const jsonLd = [
 
   <!-- 출처 링크 & 주석 -->
   <p class="footnote">
-    공식 가격 페이지 기준 수동 검증 · KRW 환산 Frankfurter API (매일 갱신) ·
+    가격 출처 {sourceNames} · KRW 환산 기준 환율 (매일 갱신) ·
     최종 확인일 {latestCheckedAt} ·
     {offers[0] && (
       <a href={offers[0].sourceUrl} target="_blank" rel="noopener noreferrer"
         style="color:inherit;text-decoration:underline;text-decoration-color:var(--border-strong);">
-        공식 가격 페이지 바로가기 ↗
+        가격 페이지 바로가기 ↗
       </a>
     )}
     <br />

@@ -13,6 +13,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "validate": "tsx scripts/validate-data.ts",
+    "fetch-app-store": "tsx scripts/fetch-app-store-prices.ts",
     "fetch-rates": "tsx scripts/fetch-rates.ts",
     "generate": "tsx scripts/generate-data.ts && tsx scripts/generate-seo.ts"
   },

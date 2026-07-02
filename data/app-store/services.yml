@@ -1,0 +1,85 @@
+# Apple App Store 공개 페이지의 인앱 구독 가격을 수집한다.
+# Higgsfield는 2026-07-02 기준 공식 App Store 앱이 명확하지 않아 제외한다.
+countries:
+  - US
+  - KR
+  - JP
+  - TR
+  - PK
+  - IN
+  - PH
+  - BR
+  - MX
+  - CA
+  - GB
+  - DE
+  - FR
+  - AU
+  - NZ
+  - ID
+  - TH
+  - MY
+  - SG
+  - HK
+  - TW
+  - PL
+  - ZA
+  - AR
+  - EG
+  - NG
+  - DK
+
+services:
+  - service: chatgpt-plus-ios
+    appStoreId: 6448311069
+    appSlug: chatgpt
+    planName: ChatGPT Plus
+    planId: plus-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: claude-pro-ios
+    appStoreId: 6473753684
+    appSlug: claude-by-anthropic
+    planName: Claude Pro - Monthly
+    planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: gemini-ai-pro-ios
+    appStoreId: 6477489729
+    appSlug: google-gemini
+    planName: Google AI Pro (5 TB)
+    planId: ai-pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: perplexity-pro-ios
+    appStoreId: 1668000334
+    appSlug: perplexity-ai-search-chat
+    planName: Perplexity Pro
+    planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: grok-supergrok-ios
+    appStoreId: 6670324846
+    appSlug: grok-ai-chat-video
+    planName: SuperGrok
+    planId: supergrok-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: suno-pro-ios
+    appStoreId: 6480136315
+    appSlug: suno-ai-songs-music
+    planName: Pro Plan
+    planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true

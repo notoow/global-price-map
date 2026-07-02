@@ -8,9 +8,18 @@ import { z } from "zod";
 export const BillingCycleSchema = z.enum(["monthly", "yearly"]);
 export type BillingCycle = z.infer<typeof BillingCycleSchema>;
 
+export const PriceSourceTypeSchema = z.enum([
+  "manual",
+  "official_web",
+  "ios_app_store",
+  "google_play",
+]);
+export type PriceSourceType = z.infer<typeof PriceSourceTypeSchema>;
+
 export const PlanSchema = z.object({
   id: z.string().min(1, "plan id는 비어 있을 수 없어요"),
   price: z.number().positive("price는 0보다 커야 해요"),
+  displayPrice: z.string().min(1).optional(),
   billingCycle: BillingCycleSchema,
   taxIncluded: z.boolean(),
 });
@@ -28,6 +37,8 @@ export const PriceFactSchema = z.object({
     .regex(/^[A-Z]{3}$/, "currency는 ISO 4217 대문자 코드여야 해요 (예: KRW)"),
   plans: z.array(PlanSchema).min(1, "plans는 최소 1개 이상이어야 해요"),
   sourceUrl: z.url("sourceUrl은 유효한 URL이어야 해요"),
+  sourceType: PriceSourceTypeSchema.default("manual"),
+  sourceName: z.string().min(1).optional(),
   checkedAt: z.iso.date("checkedAt은 실제 존재하는 YYYY-MM-DD 날짜여야 해요"),
 });
 export type PriceFact = z.infer<typeof PriceFactSchema>;
@@ -53,6 +64,8 @@ export interface CountryOffer {
   billingCycle: BillingCycle;
   taxIncluded: boolean;
   sourceUrl: string;
+  sourceType: PriceSourceType;
+  sourceName?: string;
   checkedAt: string;
   isBaseline: boolean; // country === 'KR'
 }
