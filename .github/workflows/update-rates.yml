@@ -49,5 +49,6 @@ jobs:
           else
             DATE=$(date -u +"%Y-%m-%d")
             git commit -m "chore: update exchange rates ${DATE}"
+            git pull --rebase origin main
             git push
           fi
