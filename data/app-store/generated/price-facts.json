@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T02:25:04.857Z",
+  "generatedAt": "2026-07-04T02:23:51.777Z",
   "source": "ios_app_store",
   "facts": [
     {
@@ -378,7 +378,7 @@
       "sourceUrl": "https://apps.apple.com/sg/app/chatgpt/id6448311069",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-04"
     },
     {
       "service": "chatgpt-plus-ios",
@@ -450,7 +450,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-04"
     },
     {
       "service": "chatgpt-plus-ios",
@@ -918,7 +918,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-04"
     },
     {
       "service": "claude-pro-ios",
@@ -1404,7 +1404,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-04"
     },
     {
       "service": "gemini-ai-pro-ios",
@@ -1890,7 +1890,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/grok-ai-chat-video/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-04"
     },
     {
       "service": "grok-supergrok-ios",
@@ -2376,7 +2376,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-04"
     },
     {
       "service": "perplexity-pro-ios",
@@ -2884,8 +2884,8 @@
     }
   ],
   "stats": {
-    "fetched": 84,
-    "reused": 76,
+    "fetched": 6,
+    "reused": 154,
     "missing": 2
   }
 }
