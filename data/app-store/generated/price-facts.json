@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T02:23:51.777Z",
+  "generatedAt": "2026-07-05T02:32:40.456Z",
   "source": "ios_app_store",
   "facts": [
     {
@@ -36,7 +36,7 @@
       "sourceUrl": "https://apps.apple.com/au/app/chatgpt/id6448311069",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "chatgpt-plus-ios",
@@ -144,7 +144,7 @@
       "sourceUrl": "https://apps.apple.com/fr/app/chatgpt/id6448311069",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "chatgpt-plus-ios",
@@ -234,7 +234,7 @@
       "sourceUrl": "https://apps.apple.com/kr/app/chatgpt/id6448311069",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "chatgpt-plus-ios",
@@ -378,7 +378,7 @@
       "sourceUrl": "https://apps.apple.com/sg/app/chatgpt/id6448311069",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-04"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "chatgpt-plus-ios",
@@ -450,7 +450,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-04"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "chatgpt-plus-ios",
@@ -522,7 +522,7 @@
       "sourceUrl": "https://apps.apple.com/br/app/claude-by-anthropic/id6473753684",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-03"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "claude-pro-ios",
@@ -918,7 +918,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-04"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "claude-pro-ios",
@@ -1404,7 +1404,7 @@
       "sourceUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
-      "checkedAt": "2026-07-04"
+      "checkedAt": "2026-07-05"
     },
     {
       "service": "gemini-ai-pro-ios",
@@ -2884,8 +2884,8 @@
     }
   ],
   "stats": {
-    "fetched": 6,
-    "reused": 154,
+    "fetched": 8,
+    "reused": 152,
     "missing": 2
   }
 }
