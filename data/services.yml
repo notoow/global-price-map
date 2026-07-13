@@ -1,60 +1,73 @@
 # 서비스 카탈로그. 가격 데이터는 data/raw 또는 data/app-store/generated 에서 합쳐진다.
+# 홈 정렬은 category 순서와 이 파일 안의 서비스 순서를 따른다.
 - id: youtube-premium
   name: YouTube Premium
   plan: 개인 · 월정액
+  category: ott
   logo: /service-logos/youtube-premium.jpg
 
 - id: netflix
   name: Netflix
   plan: Standard · 월정액
+  category: ott
   logo: /service-logos/netflix.jpg
-
-- id: spotify-premium
-  name: Spotify Premium
-  plan: 개인 · 월정액
-  logo: /service-logos/spotify-premium.jpg
-
-- id: apple-music
-  name: Apple Music
-  plan: 개인 · 월정액
-  logo: /service-logos/apple-music.jpg
 
 - id: disney-plus
   name: Disney+
   plan: Standard · 월정액
+  category: ott
   logo: /service-logos/disney-plus.jpg
-
-- id: adobe-creative-cloud
-  name: Adobe Creative Cloud
-  plan: Pro/모든 앱 · 연간 월청구
-  logo: /service-logos/adobe-creative-cloud.svg
 
 - id: chatgpt-plus-ios
   name: ChatGPT Plus
   plan: iOS App Store · 월정액
+  category: ai-agent
   logo: /service-logos/chatgpt-plus-ios.jpg
 
 - id: claude-pro-ios
   name: Claude Pro
   plan: iOS App Store · 월정액
+  category: ai-agent
   logo: /service-logos/claude-pro-ios.jpg
 
 - id: gemini-ai-pro-ios
   name: Google AI Pro
   plan: iOS App Store · 월정액
+  category: ai-agent
   logo: /service-logos/gemini-ai-pro-ios.jpg
 
 - id: perplexity-pro-ios
   name: Perplexity Pro
   plan: iOS App Store · 월정액
+  category: ai-agent
   logo: /service-logos/perplexity-pro-ios.jpg
 
 - id: grok-supergrok-ios
   name: SuperGrok
   plan: iOS App Store · 월정액
+  category: ai-agent
   logo: /service-logos/grok-supergrok-ios.jpg
+
+- id: adobe-creative-cloud
+  name: Adobe Creative Cloud
+  plan: Pro/모든 앱 · 연간 월청구
+  category: productivity
+  logo: /service-logos/adobe-creative-cloud.svg
+
+- id: spotify-premium
+  name: Spotify Premium
+  plan: 개인 · 월정액
+  category: music
+  logo: /service-logos/spotify-premium.jpg
+
+- id: apple-music
+  name: Apple Music
+  plan: 개인 · 월정액
+  category: music
+  logo: /service-logos/apple-music.jpg
 
 - id: suno-pro-ios
   name: Suno Pro
   plan: iOS App Store · 월정액
+  category: music
   logo: /service-logos/suno-pro-ios.jpg

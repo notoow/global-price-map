@@ -48,6 +48,7 @@ export const ServiceMetaSchema = z.object({
   id: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
   name: z.string().min(1),
   plan: z.string().min(1),
+  category: z.enum(["ott", "ai-agent", "productivity", "music"]),
   logo: z.string().min(1).optional(),
 });
 export type ServiceMeta = z.infer<typeof ServiceMetaSchema>;

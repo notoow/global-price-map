@@ -4,10 +4,24 @@ import ServiceCard from "../components/ServiceCard.astro";
 import type { GeneratedData } from "../lib/schema.ts";
 import { SITE, absoluteUrl, withBase } from "../lib/site.ts";
 
-// 빌드 타임에 생성된 JSON을 그대로 import — Zero runtime, 번들 크기 없음
 import data from "../data/generated/services.json";
 
 const { services, ratesAsOf } = data as GeneratedData;
+
+const categories = [
+  { id: "ott", label: "OTT / 영상" },
+  { id: "ai-agent", label: "AI 에이전트" },
+  { id: "productivity", label: "생산성 / 크리에이티브" },
+  { id: "music", label: "음악" },
+] as const;
+
+const categoryLabelById = new Map(categories.map((category) => [category.id, category.label]));
+const serviceGroups = categories
+  .map((category) => ({
+    ...category,
+    services: services.filter((service) => service.category === category.id),
+  }))
+  .filter((group) => group.services.length > 0);
 
 const serviceItems = services.map((svc, index) => ({
   "@type": "ListItem",
@@ -45,7 +59,7 @@ const jsonLd = [
     inLanguage: SITE.language,
     dateModified: ratesAsOf,
     description: SITE.description,
-    keywords: "구독 서비스 가격 비교, 국가별 구독료, Adobe Creative Cloud 가격, Netflix 가격, YouTube Premium 가격",
+    keywords: "구독 서비스 가격 비교, 국가별 구독료, AI 구독 가격, OTT 가격, Adobe Creative Cloud 가격",
     creator: {
       "@type": "Organization",
       name: SITE.name,
@@ -57,76 +71,80 @@ const jsonLd = [
 
 <Layout
   title="구독 서비스 국가별 가격 비교 및 최저가 순위 — 서브링크"
-  description="YouTube Premium, Netflix, Spotify, Adobe Creative Cloud 등 구독 서비스의 국가별 월 가격을 KRW로 환산해 최저가 순위로 비교하세요."
+  description="OTT, AI 에이전트, 음악, 생산성 구독 서비스의 국가별 가격을 KRW 기준으로 비교하세요."
   ratesAsOf={ratesAsOf}
   jsonLd={jsonLd}
 >
-  <!-- 히어로 타이틀 -->
-  <section aria-labelledby="hero-title" style="text-align:center;padding-bottom:1.75rem;">
-    <h1 id="hero-title" style="font-size:clamp(1.5rem,5vw,2rem);font-weight:500;letter-spacing:-0.025em;line-height:1.35;margin-bottom:0.4rem;">
-      구독 서비스<br>국가별 가격 비교
-    </h1>
-    <p style="font-size:14px;color:var(--text-muted);">
-      YouTube, Netflix, Spotify, Adobe까지 KRW 환산 최저가 순위로 비교해요
-    </p>
+  <section aria-labelledby="hero-title" class="home-hero">
+    <h1 id="hero-title">구독 서비스<br />국가별 가격 비교</h1>
+    <p>OTT, AI, 음악, 생산성 구독 가격을 KRW 기준으로 비교해요</p>
   </section>
 
-  <!-- 검색창 -->
-  <div class="search-wrap" style="margin-bottom:1.5rem;" role="search">
+  <div class="search-wrap home-search" role="search">
     <label for="svc-search" class="visually-hidden">서비스 검색</label>
-    <svg class="search-wrap__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-      stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
+    <svg
+      class="search-wrap__icon"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="11" cy="11" r="8" /><path d="m21 21-4.35-4.35" />
     </svg>
     <input
       id="svc-search"
       type="search"
       class="search-input"
-      placeholder="서비스 이름으로 검색 (유튜브, 넷플릭스, 어도비...)"
+      placeholder="서비스 이름으로 검색 (유튜브, 넷플릭스, 클로드...)"
       autocomplete="off"
       spellcheck="false"
     />
   </div>
 
-  <!-- 그리드 헤더 -->
-  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:0.75rem;">
-    <p style="font-size:13px;color:var(--text-secondary);">
-      전체 <span id="count">{services.length}</span>개 서비스
-    </p>
-    <p style="font-size:12px;color:var(--text-muted);">최저가순 정렬</p>
+  <div class="service-summary">
+    <p>전체 <span id="count">{services.length}</span>개 서비스</p>
+    <p>섹션별 정렬</p>
   </div>
 
-  <!-- 서비스 카드 그리드 -->
-  <section aria-label="서비스 목록">
-    <ul id="svc-grid" class="service-grid" style="list-style:none;">
-      {services.map((svc) => (
-        <li
-          data-search={`${svc.name} ${svc.id} ${svc.plan}`.toLowerCase()}
-          data-empty="false"
-        >
-          <ServiceCard service={svc} href={withBase(`/services/${svc.id}/`)} />
-        </li>
-      ))}
-    </ul>
-    <p id="empty-msg" style="display:none;text-align:center;padding:2.5rem 0;color:var(--text-muted);font-size:14px;">
+  <section aria-label="서비스 목록" class="service-sections">
+    {serviceGroups.map((group) => (
+      <section class="service-section" data-category-section>
+        <div class="service-section__header">
+          <h2>{group.label}</h2>
+          <span>{group.services.length}개</span>
+        </div>
+        <ul class="service-grid" style="list-style:none;">
+          {group.services.map((svc) => (
+            <li
+              data-search={`${svc.name} ${svc.id} ${svc.plan} ${categoryLabelById.get(svc.category) ?? ""}`.toLowerCase()}
+              data-empty="false"
+            >
+              <ServiceCard service={svc} href={withBase(`/services/${svc.id}/`)} />
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+    <p id="empty-msg" class="service-empty">
       검색 결과가 없어요
     </p>
   </section>
 
-  <!-- 업데이트 주석 -->
   <p class="footnote">
-    KRW 환산 Frankfurter API 매일 갱신 · 가격은 공식 가격 페이지 기준 수동 검증 ·
-    구매 전 현지 이용약관 및 VPN 정책을 확인하세요
+    KRW 환산 기준 환율은 매일 갱신됩니다. 가격은 공식 가격 페이지 또는 공개 App Store 가격 데이터를 기준으로 합니다.
+    구매 전 현지 결제 수단, 세금, 이용약관을 확인하세요.
   </p>
 </Layout>
 
 <script>
-  // 서버 렌더링된 항목을 클라이언트에서 필터링 (JS 없이도 전체 목록이 보임)
   const input = document.getElementById("svc-search") as HTMLInputElement;
   const countEl = document.getElementById("count") as HTMLElement;
   const emptyMsg = document.getElementById("empty-msg") as HTMLElement;
-  const grid = document.getElementById("svc-grid") as HTMLElement;
-  const items = [...grid.querySelectorAll<HTMLElement>("li[data-search]")];
+  const sections = [...document.querySelectorAll<HTMLElement>("[data-category-section]")];
+  const items = [...document.querySelectorAll<HTMLElement>("li[data-search]")];
 
   function filterServices() {
     const q = input.value.trim().toLowerCase();
@@ -136,6 +154,11 @@ const jsonLd = [
       const match = !q || li.dataset.search!.includes(q);
       li.hidden = !match;
       if (match) visible++;
+    }
+
+    for (const section of sections) {
+      const sectionItems = [...section.querySelectorAll<HTMLElement>("li[data-search]")];
+      section.hidden = !sectionItems.some((li) => !li.hidden);
     }
 
     countEl.textContent = String(visible);

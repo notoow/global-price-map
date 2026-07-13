@@ -135,8 +135,48 @@ button, input {
 .site-header__logo {
   font-size: 14px;
   font-weight: 600;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   color: var(--text-primary);
+}
+
+/* ── 홈 ── */
+.home-hero {
+  text-align: center;
+  padding-bottom: 1.75rem;
+}
+
+.home-hero h1 {
+  font-size: 1.95rem;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.35;
+  margin-bottom: 0.4rem;
+}
+
+.home-hero p {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.home-search {
+  margin-bottom: 1.5rem;
+}
+
+.service-summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.service-summary p:first-child {
+  font-size: 13px;
+  color: var(--text-secondary);
+}
+
+.service-summary p:last-child {
+  font-size: 12px;
+  color: var(--text-muted);
 }
 
 .site-header__meta {
@@ -189,6 +229,50 @@ button, input {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
   gap: 10px;
+}
+
+.service-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 1.65rem;
+}
+
+.service-section[hidden] {
+  display: none;
+}
+
+.service-section + .service-section {
+  border-top: 0.5px solid var(--border);
+  padding-top: 1.35rem;
+}
+
+.service-section__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.service-section__header h2 {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--text-primary);
+}
+
+.service-section__header span {
+  font-size: 12px;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.service-empty {
+  display: none;
+  text-align: center;
+  padding: 2.5rem 0;
+  color: var(--text-muted);
+  font-size: 14px;
 }
 
 /* ── 서비스 카드 ── */
@@ -297,7 +381,7 @@ button, input {
   font-size: 20px;
   font-weight: 500;
   color: var(--text-primary);
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   line-height: 1.2;
 }
 
@@ -406,7 +490,7 @@ button, input {
 .rank-hero__krw-price {
   font-size: 34px;
   font-weight: 500;
-  letter-spacing: -0.03em;
+  letter-spacing: 0;
   line-height: 1.1;
 }
 
@@ -452,7 +536,7 @@ button, input {
 .runner-card__krw {
   font-size: 22px;
   font-weight: 500;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   margin-bottom: 2px;
 }
 
