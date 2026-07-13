@@ -6,8 +6,10 @@ import { BillingCycleSchema, PriceFactSchema, type PriceFact } from "../src/lib/
 
 const CONFIG_PATH = path.resolve("data/app-store/services.yml");
 const OUT_PATH = path.resolve("data/app-store/generated/price-facts.json");
-const REQUEST_TIMEOUT_MS = 12000;
-const CONCURRENCY = 4;
+const REQUEST_TIMEOUT_MS = Number(process.env.APP_STORE_TIMEOUT_MS ?? 12000);
+const CONCURRENCY = Number(process.env.APP_STORE_CONCURRENCY ?? 1);
+const REQUEST_DELAY_MS = Number(process.env.APP_STORE_REQUEST_DELAY_MS ?? 700);
+const MAX_ATTEMPTS = Number(process.env.APP_STORE_MAX_ATTEMPTS ?? 3);
 
 const AppStoreServiceSchema = z.object({
   service: z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/),
@@ -24,6 +26,8 @@ const AppStoreConfigSchema = z.object({
   countries: z.array(z.string().regex(/^[A-Z]{2}$/)).min(1),
   services: z.array(AppStoreServiceSchema).min(1),
 });
+
+type AppStoreService = z.infer<typeof AppStoreServiceSchema>;
 
 interface AppStoreCache {
   generatedAt: string;
@@ -47,6 +51,12 @@ function today(): string {
 
 function keyOf(service: string, country: string): string {
   return `${service}:${country}`;
+}
+
+function envList(name: string): Set<string> | null {
+  const value = process.env[name];
+  if (!value) return null;
+  return new Set(value.split(",").map((item) => item.trim()).filter(Boolean));
 }
 
 function readPreviousFacts(): Map<string, PriceFact> {
@@ -111,7 +121,7 @@ function parsePrice(priceLabel: string): number {
       ? 1_000_000
       : 1;
   const numeric = priceLabel.replace(/\s+/g, "").replace(/[^\d.,]/g, "");
-  if (!numeric) throw new Error(`가격 숫자를 찾을 수 없어요: ${priceLabel}`);
+  if (!numeric) throw new Error(`Could not find a numeric price in: ${priceLabel}`);
 
   const lastDot = numeric.lastIndexOf(".");
   const lastComma = numeric.lastIndexOf(",");
@@ -136,29 +146,55 @@ function parsePrice(priceLabel: string): number {
   }
 
   const price = Number(normalized) * compactMultiplier;
-  if (!Number.isFinite(price) || price <= 0) throw new Error(`가격 파싱 실패: ${priceLabel}`);
+  if (!Number.isFinite(price) || price <= 0) throw new Error(`Could not parse price: ${priceLabel}`);
   return price;
 }
 
-async function fetchText(url: string): Promise<string> {
-  const controller = new AbortController();
-  const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
-  try {
-    const res = await fetch(url, {
-      signal: controller.signal,
-      headers: {
-        "accept-language": "en-US,en;q=0.9",
-        "user-agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
-          "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
-      },
-    });
-    if (!res.ok) throw new Error(`HTTP ${res.status}`);
-    return await res.text();
-  } finally {
-    clearTimeout(timer);
+async function fetchText(url: string): Promise<string> {
+  let lastError: Error | null = null;
+
+  for (let attempt = 1; attempt <= MAX_ATTEMPTS; attempt++) {
+    if (REQUEST_DELAY_MS > 0) {
+      await sleep(REQUEST_DELAY_MS + Math.floor(Math.random() * 250));
+    }
+
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+
+    try {
+      const res = await fetch(url, {
+        signal: controller.signal,
+        headers: {
+          "accept-language": "en-US,en;q=0.9",
+          "user-agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 " +
+            "(KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+        },
+      });
+
+      if (res.status === 429 && attempt < MAX_ATTEMPTS) {
+        const retryAfter = Number(res.headers.get("retry-after"));
+        const waitMs = Number.isFinite(retryAfter) && retryAfter > 0 ? retryAfter * 1000 : 5000 * attempt;
+        lastError = new Error("HTTP 429");
+        await sleep(waitMs);
+        continue;
+      }
+
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return await res.text();
+    } catch (err) {
+      lastError = err as Error;
+      if (attempt < MAX_ATTEMPTS) await sleep(1500 * attempt);
+    } finally {
+      clearTimeout(timer);
+    }
   }
+
+  throw lastError ?? new Error("Request failed");
 }
 
 async function mapLimit<T, R>(items: T[], limit: number, worker: (item: T) => Promise<R>): Promise<R[]> {
@@ -176,17 +212,36 @@ async function mapLimit<T, R>(items: T[], limit: number, worker: (item: T) => Pr
   return results;
 }
 
+function selectedServices(services: AppStoreService[]): AppStoreService[] {
+  const selected = envList("APP_STORE_SERVICES");
+  if (!selected) return services;
+  return services.filter((service) => selected.has(service.service));
+}
+
+function selectedCountries(countries: string[]): string[] {
+  const selected = envList("APP_STORE_COUNTRIES");
+  if (!selected) return countries;
+  return countries.filter((country) => selected.has(country));
+}
+
 async function main() {
   const config = AppStoreConfigSchema.parse(parse(readFileSync(CONFIG_PATH, "utf-8")));
   const previousFacts = readPreviousFacts();
   const checkedAt = today();
-  const tasks = config.services.flatMap((service) =>
-    config.countries.map((country) => ({ service, country })),
-  );
+  const services = selectedServices(config.services);
+  const countries = selectedCountries(config.countries);
+  const selectedTaskKeys = new Set(services.flatMap((service) => countries.map((country) => keyOf(service.service, country))));
+  const tasks = services.flatMap((service) => countries.map((country) => ({ service, country })));
 
   let fetched = 0;
   let reused = 0;
   let missing = 0;
+
+  console.log(
+    `[app-store] Fetching ${tasks.length} service-country pairs ` +
+      `(services ${services.length}/${config.services.length}, countries ${countries.length}/${config.countries.length}, concurrency ${CONCURRENCY}).`,
+  );
+
   const facts = await mapLimit(tasks, CONCURRENCY, async ({ service, country }) => {
     const countryPath = country.toLowerCase();
     const sourceUrl = `https://apps.apple.com/${countryPath}/app/${service.appSlug}/id${service.appStoreId}`;
@@ -194,10 +249,10 @@ async function main() {
     try {
       const html = await fetchText(sourceUrl);
       const currency = extractCurrency(html);
-      if (!currency) throw new Error("통화 코드를 찾지 못했어요");
+      if (!currency) throw new Error("Could not find currency code");
 
       const purchase = selectPurchase(extractInAppPurchases(html), service.planName, service.occurrence);
-      if (!purchase) throw new Error(`플랜을 찾지 못했어요: ${service.planName}`);
+      if (!purchase) throw new Error(`Could not find plan: ${service.planName}`);
 
       const fact = PriceFactSchema.parse({
         service: service.service,
@@ -223,31 +278,40 @@ async function main() {
       const fallback = previousFacts.get(keyOf(service.service, country));
       if (fallback) {
         reused++;
-        console.warn(`[app-store] ${service.service}-${country}: ${(err as Error).message}; 이전 캐시 재사용`);
+        console.warn(`[app-store] ${service.service}-${country}: ${(err as Error).message}; reused previous cache.`);
         return fallback;
       }
 
       missing++;
-      console.warn(`[app-store] ${service.service}-${country}: ${(err as Error).message}; 건너뜀`);
+      console.warn(`[app-store] ${service.service}-${country}: ${(err as Error).message}; skipped.`);
       return null;
     }
   });
 
+  const nextFacts = new Map(previousFacts);
+  if (process.env.APP_STORE_SERVICES || process.env.APP_STORE_COUNTRIES) {
+    for (const key of selectedTaskKeys) nextFacts.delete(key);
+  } else {
+    nextFacts.clear();
+  }
+
+  for (const fact of facts) {
+    if (fact) nextFacts.set(keyOf(fact.service, fact.country), fact);
+  }
+
   const output: AppStoreCache = {
     generatedAt: new Date().toISOString(),
     source: "ios_app_store",
-    facts: facts.filter((fact): fact is PriceFact => Boolean(fact)).sort((a, b) =>
-      a.service.localeCompare(b.service) || a.country.localeCompare(b.country),
-    ),
+    facts: [...nextFacts.values()].sort((a, b) => a.service.localeCompare(b.service) || a.country.localeCompare(b.country)),
     stats: { fetched, reused, missing },
   };
 
   mkdirSync(path.dirname(OUT_PATH), { recursive: true });
   writeFileSync(OUT_PATH, JSON.stringify(output, null, 2) + "\n", "utf-8");
-  console.log(`✅ App Store 가격 수집 완료 — fetched ${fetched}, reused ${reused}, missing ${missing}`);
+  console.log(`[app-store] Done: fetched ${fetched}, reused ${reused}, missing ${missing}.`);
 }
 
 main().catch((err) => {
-  console.error(`❌ fetch-app-store-prices 실패: ${(err as Error).message}`);
+  console.error(`[app-store] Failed: ${(err as Error).message}`);
   process.exit(1);
 });

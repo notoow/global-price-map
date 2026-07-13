@@ -1,5 +1,5 @@
 # Apple App Store 공개 페이지의 인앱 구독 가격을 수집한다.
-# Higgsfield는 2026-07-02 기준 공식 App Store 앱이 명확하지 않아 제외한다.
+# SORA, CatCosplay처럼 공식 앱/구독명이 불명확한 항목은 가격표 신뢰도를 위해 보류한다.
 countries:
   - US
   - KR
@@ -68,9 +68,126 @@ services:
 
   - service: grok-supergrok-ios
     appStoreId: 6670324846
-    appSlug: grok-ai-chat-video
+    appSlug: grok-ai
     planName: SuperGrok
     planId: supergrok-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: glm-ios
+    appStoreId: 6450893458
+    appSlug: "%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B"
+    planName: 连续包月会员
+    planId: member-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: character-ai-plus-ios
+    appStoreId: 1671705818
+    appSlug: character-ai-chat-talk-text
+    planName: Character.AI+
+    planId: plus-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: microsoft-copilot-pro-ios
+    appStoreId: 541164041
+    appSlug: microsoft-365-copilot
+    planName: Microsoft Copilot Pro
+    planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: manus-basic-ios
+    appStoreId: 6740909540
+    appSlug: manus-ai-agent-automation
+    planName: Manus Basic - Monthly
+    planId: basic-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: kimi-moderato-ios
+    appStoreId: 6474233312
+    appSlug: kimi-kimi-k2-6-is-live
+    planName: Moderato
+    planId: moderato-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: cursor-pro-ios
+    appStoreId: 6767085653
+    appSlug: cursor
+    planName: Pro
+    planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: capcut-pro-ios
+    appStoreId: 1500855883
+    appSlug: capcut-photo-video-editor
+    planName: Pro Monthly Subscription
+    planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: leonardo-ai-essential-ios
+    appStoreId: 1662773014
+    appSlug: leonardo-ai-image-generator
+    planName: Essential
+    planId: essential-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: kling-ai-standard-ios
+    appStoreId: 6738049229
+    appSlug: kling-ai-ai-image-video-maker
+    planName: Standard plan (monthly)
+    planId: standard-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: runway-standard-ios
+    appStoreId: 1665024375
+    appSlug: runwayml
+    planName: Standard - Monthly
+    planId: standard-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: picsart-gold-ios
+    appStoreId: 587366035
+    appSlug: picsart-ai-photo-editor-video
+    planName: Picsart Gold - Monthly
+    planId: gold-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: canva-pro-ios
+    appStoreId: 897446215
+    appSlug: canva-ai-video-photo-editor
+    planName: Canva Pro - Monthly
+    planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: notion-ai-ios
+    appStoreId: 1232780281
+    appSlug: notion-notes-tasks-ai
+    planName: Notion Plus & AI
+    planId: plus-ai-monthly
     billingCycle: monthly
     occurrence: 1
     taxIncluded: true
@@ -80,6 +197,33 @@ services:
     appSlug: suno-ai-songs-music
     planName: Pro Plan
     planId: pro-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: hbo-max-standard-ios
+    appStoreId: 1666653815
+    appSlug: hbo-max-stream-movies-tv
+    planName: Standard Monthly
+    planId: standard-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: x-premium-ios
+    appStoreId: 333903271
+    appSlug: x
+    planName: X Premium (Monthly)
+    planId: premium-monthly
+    billingCycle: monthly
+    occurrence: 1
+    taxIncluded: true
+
+  - service: duolingo-super-ios
+    appStoreId: 570060128
+    appSlug: duolingo-language-lessons
+    planName: Super Duolingo
+    planId: super-monthly
     billingCycle: monthly
     occurrence: 1
     taxIncluded: true

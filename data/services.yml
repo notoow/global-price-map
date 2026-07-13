@@ -18,6 +18,12 @@
   category: ott
   logo: /service-logos/disney-plus.jpg
 
+- id: hbo-max-standard-ios
+  name: HBO Max
+  plan: Standard · iOS App Store
+  category: ott
+  logo: /service-logos/hbo-max-standard-ios.jpg
+
 - id: chatgpt-plus-ios
   name: ChatGPT Plus
   plan: iOS App Store · 월정액
@@ -36,23 +42,101 @@
   category: ai-agent
   logo: /service-logos/gemini-ai-pro-ios.jpg
 
-- id: perplexity-pro-ios
-  name: Perplexity Pro
-  plan: iOS App Store · 월정액
-  category: ai-agent
-  logo: /service-logos/perplexity-pro-ios.jpg
-
 - id: grok-supergrok-ios
   name: SuperGrok
   plan: iOS App Store · 월정액
   category: ai-agent
   logo: /service-logos/grok-supergrok-ios.jpg
 
+- id: glm-ios
+  name: GLM
+  plan: iOS App Store · 월정액
+  category: ai-agent
+  logo: /service-logos/glm-ios.jpg
+
+- id: character-ai-plus-ios
+  name: Character.AI+
+  plan: iOS App Store · 월정액
+  category: ai-agent
+  logo: /service-logos/character-ai-plus-ios.jpg
+
+- id: perplexity-pro-ios
+  name: Perplexity Pro
+  plan: iOS App Store · 월정액
+  category: ai-agent
+  logo: /service-logos/perplexity-pro-ios.jpg
+
+- id: microsoft-copilot-pro-ios
+  name: Microsoft Copilot Pro
+  plan: iOS App Store · 월정액
+  category: ai-agent
+  logo: /service-logos/microsoft-copilot-pro-ios.jpg
+
+- id: manus-basic-ios
+  name: Manus Basic
+  plan: iOS App Store · 월정액
+  category: ai-agent
+  logo: /service-logos/manus-basic-ios.jpg
+
+- id: kimi-moderato-ios
+  name: Kimi Moderato
+  plan: iOS App Store · 월정액
+  category: ai-agent
+  logo: /service-logos/kimi-moderato-ios.jpg
+
+- id: cursor-pro-ios
+  name: Cursor Pro
+  plan: iOS App Store · 월정액
+  category: ai-agent
+  logo: /service-logos/cursor-pro-ios.jpg
+
+- id: capcut-pro-ios
+  name: CapCut Pro
+  plan: iOS App Store · 월정액
+  category: ai-creative
+  logo: /service-logos/capcut-pro-ios.jpg
+
+- id: leonardo-ai-essential-ios
+  name: Leonardo AI Essential
+  plan: iOS App Store · 월정액
+  category: ai-creative
+  logo: /service-logos/leonardo-ai-essential-ios.jpg
+
+- id: kling-ai-standard-ios
+  name: Kling AI Standard
+  plan: iOS App Store · 월정액
+  category: ai-creative
+  logo: /service-logos/kling-ai-standard-ios.jpg
+
+- id: runway-standard-ios
+  name: Runway Standard
+  plan: iOS App Store · 월정액
+  category: ai-creative
+  logo: /service-logos/runway-standard-ios.jpg
+
+- id: picsart-gold-ios
+  name: Picsart Gold
+  plan: iOS App Store · 월정액
+  category: ai-creative
+  logo: /service-logos/picsart-gold-ios.jpg
+
 - id: adobe-creative-cloud
   name: Adobe Creative Cloud
   plan: Pro/모든 앱 · 연간 월청구
   category: productivity
   logo: /service-logos/adobe-creative-cloud.svg
+
+- id: canva-pro-ios
+  name: Canva Pro
+  plan: iOS App Store · 월정액
+  category: productivity
+  logo: /service-logos/canva-pro-ios.jpg
+
+- id: notion-ai-ios
+  name: Notion Plus & AI
+  plan: iOS App Store · 월정액
+  category: productivity
+  logo: /service-logos/notion-ai-ios.jpg
 
 - id: spotify-premium
   name: Spotify Premium
@@ -71,3 +155,15 @@
   plan: iOS App Store · 월정액
   category: music
   logo: /service-logos/suno-pro-ios.jpg
+
+- id: x-premium-ios
+  name: X Premium
+  plan: iOS App Store · 월정액
+  category: social
+  logo: /service-logos/x-premium-ios.jpg
+
+- id: duolingo-super-ios
+  name: Super Duolingo
+  plan: iOS App Store · 월정액
+  category: education
+  logo: /service-logos/duolingo-super-ios.jpg

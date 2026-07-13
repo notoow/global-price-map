@@ -1,7 +1,529 @@
 {
-  "generatedAt": "2026-07-13T02:10:26.323Z",
+  "generatedAt": "2026-07-13T05:48:45.977Z",
   "source": "ios_app_store",
   "facts": [
+    {
+      "service": "canva-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 14.99,
+          "displayPrice": "$14.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/canva-ai-video-photo-editor/id897446215",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "capcut-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 19.99,
+          "displayPrice": "$19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "AR",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 9.99,
+          "displayPrice": "USD 9.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ar/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 14.99,
+          "displayPrice": "$14.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 49.9,
+          "displayPrice": "R$ 49,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 12.99,
+          "displayPrice": "$12.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 9.99,
+          "displayPrice": "9,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 89,
+          "displayPrice": "89,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 299.99,
+          "displayPrice": "EGP 299.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 9.99,
+          "displayPrice": "9,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 9.99,
+          "displayPrice": "£9.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "HK",
+      "currency": "HKD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 88,
+          "displayPrice": "HK$ 88.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/hk/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 169000,
+          "displayPrice": "Rp 169ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 999,
+          "displayPrice": "₹ 999",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 1500,
+          "displayPrice": "¥1,500",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 14000,
+          "displayPrice": "￦14,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 199,
+          "displayPrice": "$199.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 49.9,
+          "displayPrice": "RM49.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "NG",
+      "currency": "NGN",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 4900,
+          "displayPrice": "₦ 4,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ng/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 19.99,
+          "displayPrice": "$19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 499,
+          "displayPrice": "₱ 499.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 2900,
+          "displayPrice": "Rs 2,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "PL",
+      "currency": "PLN",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 49.99,
+          "displayPrice": "49,99 zł",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pl/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 14.98,
+          "displayPrice": "S$ 14.98",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 399,
+          "displayPrice": "฿399.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 249.99,
+          "displayPrice": "₺249,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 320,
+          "displayPrice": "$320.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 9.99,
+          "displayPrice": "$9.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "character-ai-plus-ios",
+      "country": "ZA",
+      "currency": "ZAR",
+      "plans": [
+        {
+          "id": "plus-monthly",
+          "price": 199.99,
+          "displayPrice": "R199.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/za/app/character-ai-chat-talk-text/id1671705818",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
     {
       "service": "chatgpt-plus-ios",
       "country": "AR",
@@ -939,6 +1461,78 @@
       "checkedAt": "2026-07-13"
     },
     {
+      "service": "cursor-pro-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 44000,
+          "displayPrice": "￦44,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/cursor/id6767085653",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "cursor-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 25.99,
+          "displayPrice": "$25.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/cursor/id6767085653",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "duolingo-super-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "super-monthly",
+          "price": 100000,
+          "displayPrice": "￦100,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/duolingo-language-lessons/id570060128",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "duolingo-super-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "super-monthly",
+          "price": 9.99,
+          "displayPrice": "$9.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/duolingo-language-lessons/id570060128",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
       "service": "gemini-ai-pro-ios",
       "country": "AR",
       "currency": "USD",
@@ -1425,6 +2019,420 @@
       "checkedAt": "2026-07-13"
     },
     {
+      "service": "glm-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 14.99,
+          "displayPrice": "$14.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 59.9,
+          "displayPrice": "R$ 59,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 12.99,
+          "displayPrice": "$12.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 9.99,
+          "displayPrice": "9,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "DK",
+      "currency": "DKK",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 89,
+          "displayPrice": "89,00 kr",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/dk/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "EG",
+      "currency": "EGP",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 499.99,
+          "displayPrice": "EGP 499.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/eg/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 9.99,
+          "displayPrice": "9,99 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 9.99,
+          "displayPrice": "£9.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "HK",
+      "currency": "HKD",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 88,
+          "displayPrice": "HK$ 88.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/hk/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "ID",
+      "currency": "IDR",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 169000,
+          "displayPrice": "Rp 169ribu",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/id/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 999,
+          "displayPrice": "₹ 999",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 1500,
+          "displayPrice": "¥1,500",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 14000,
+          "displayPrice": "￦14,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 199,
+          "displayPrice": "$199.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "MY",
+      "currency": "MYR",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 49.9,
+          "displayPrice": "RM49.90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/my/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "NZ",
+      "currency": "NZD",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 19.99,
+          "displayPrice": "$19.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/nz/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 599,
+          "displayPrice": "₱ 599.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 2900,
+          "displayPrice": "Rs 2,900.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "SG",
+      "currency": "SGD",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 14.98,
+          "displayPrice": "S$ 14.98",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/sg/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "TH",
+      "currency": "THB",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 399,
+          "displayPrice": "฿399.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/th/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 499.99,
+          "displayPrice": "₺499,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "TW",
+      "currency": "TWD",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 320,
+          "displayPrice": "$320.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tw/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "glm-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "member-monthly",
+          "price": 9.99,
+          "displayPrice": "$9.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
       "service": "grok-supergrok-ios",
       "country": "AR",
       "currency": "USD",
@@ -1437,7 +2445,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/ar/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/ar/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1455,7 +2463,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/au/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/au/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1473,7 +2481,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/br/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/br/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1491,7 +2499,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/ca/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/ca/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1509,7 +2517,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/de/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/de/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1527,7 +2535,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/dk/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/dk/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1545,7 +2553,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/eg/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/eg/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1563,7 +2571,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/fr/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/fr/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1581,7 +2589,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/gb/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/gb/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1599,7 +2607,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/hk/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/hk/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1617,7 +2625,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/id/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/id/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1635,7 +2643,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/in/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/in/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1653,7 +2661,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/jp/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/jp/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1671,7 +2679,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/kr/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/kr/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1689,7 +2697,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/mx/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/mx/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1707,7 +2715,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/my/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/my/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1725,7 +2733,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/ng/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/ng/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1743,7 +2751,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/nz/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/nz/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1761,7 +2769,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/ph/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/ph/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1779,7 +2787,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/pk/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/pk/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1797,7 +2805,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/pl/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/pl/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1815,7 +2823,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/sg/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/sg/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1833,7 +2841,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/th/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/th/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1851,7 +2859,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/tr/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/tr/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1869,7 +2877,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/tw/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/tw/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1887,7 +2895,7 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/us/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/us/app/grok-ai/id6670324846",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -1905,7 +2913,421 @@
           "taxIncluded": true
         }
       ],
-      "sourceUrl": "https://apps.apple.com/za/app/grok-ai-chat-video/id6670324846",
+      "sourceUrl": "https://apps.apple.com/za/app/grok-ai/id6670324846",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "hbo-max-standard-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "standard-monthly",
+          "price": 18.49,
+          "displayPrice": "$18.49",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "kimi-moderato-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "moderato-monthly",
+          "price": 25000,
+          "displayPrice": "￦25,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/kimi-kimi-k2-6-is-live/id6474233312",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "kimi-moderato-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "moderato-monthly",
+          "price": 19,
+          "displayPrice": "$19.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/kimi-kimi-k2-6-is-live/id6474233312",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "kling-ai-standard-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "standard-monthly",
+          "price": 14000,
+          "displayPrice": "￦14,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/kling-ai-ai-image-video-maker/id6738049229",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "leonardo-ai-essential-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "essential-monthly",
+          "price": 22000,
+          "displayPrice": "￦22,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/leonardo-ai-image-generator/id1662773014",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "leonardo-ai-essential-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "essential-monthly",
+          "price": 15.99,
+          "displayPrice": "$15.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/leonardo-ai-image-generator/id1662773014",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "manus-basic-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "basic-monthly",
+          "price": 25000,
+          "displayPrice": "￦25,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/manus-ai-agent-automation/id6740909540",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "manus-basic-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "basic-monthly",
+          "price": 19,
+          "displayPrice": "$19.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/manus-ai-agent-automation/id6740909540",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "AU",
+      "currency": "AUD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 33,
+          "displayPrice": "$33.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/au/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "BR",
+      "currency": "BRL",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 109.9,
+          "displayPrice": "R$ 109,90",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/br/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "CA",
+      "currency": "CAD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 27,
+          "displayPrice": "$27.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ca/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "DE",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 22,
+          "displayPrice": "22,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/de/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "FR",
+      "currency": "EUR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 22,
+          "displayPrice": "22,00 €",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/fr/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "GB",
+      "currency": "GBP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 19,
+          "displayPrice": "£19.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/gb/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "IN",
+      "currency": "INR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 2000,
+          "displayPrice": "₹ 2,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/in/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "JP",
+      "currency": "JPY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 3200,
+          "displayPrice": "¥3,200",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/jp/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 29000,
+          "displayPrice": "￦29,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "MX",
+      "currency": "MXN",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 350,
+          "displayPrice": "$350.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/mx/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "PH",
+      "currency": "PHP",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 1300,
+          "displayPrice": "₱ 1,300.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/ph/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "PK",
+      "currency": "PKR",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 5600,
+          "displayPrice": "Rs 5,600.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/pk/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "TR",
+      "currency": "TRY",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 719.99,
+          "displayPrice": "₺719,99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/tr/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "microsoft-copilot-pro-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "pro-monthly",
+          "price": 20,
+          "displayPrice": "$20.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/microsoft-365-copilot/id541164041",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "notion-ai-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "plus-ai-monthly",
+          "price": 21.99,
+          "displayPrice": "$21.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-13"
@@ -2397,6 +3819,78 @@
       "checkedAt": "2026-07-13"
     },
     {
+      "service": "picsart-gold-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "gold-monthly",
+          "price": 9900,
+          "displayPrice": "￦9,900",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/picsart-ai-photo-editor-video/id587366035",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "picsart-gold-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "gold-monthly",
+          "price": 12.99,
+          "displayPrice": "$12.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/picsart-ai-photo-editor-video/id587366035",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "runway-standard-ios",
+      "country": "KR",
+      "currency": "KRW",
+      "plans": [
+        {
+          "id": "standard-monthly",
+          "price": 33000,
+          "displayPrice": "￦33,000",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/kr/app/runwayml/id1665024375",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
+      "service": "runway-standard-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "standard-monthly",
+          "price": 18.99,
+          "displayPrice": "$18.99",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/runwayml/id1665024375",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
+    },
+    {
       "service": "suno-pro-ios",
       "country": "AR",
       "currency": "USD",
@@ -2881,11 +4375,29 @@
       "sourceType": "ios_app_store",
       "sourceName": "iOS App Store",
       "checkedAt": "2026-07-12"
+    },
+    {
+      "service": "x-premium-ios",
+      "country": "US",
+      "currency": "USD",
+      "plans": [
+        {
+          "id": "premium-monthly",
+          "price": 11,
+          "displayPrice": "$11.00",
+          "billingCycle": "monthly",
+          "taxIncluded": true
+        }
+      ],
+      "sourceUrl": "https://apps.apple.com/us/app/x/id333903271",
+      "sourceType": "ios_app_store",
+      "sourceName": "iOS App Store",
+      "checkedAt": "2026-07-13"
     }
   ],
   "stats": {
-    "fetched": 156,
-    "reused": 4,
+    "fetched": 16,
+    "reused": 0,
     "missing": 2
   }
 }

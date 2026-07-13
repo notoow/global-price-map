@@ -11,8 +11,11 @@ const { services, ratesAsOf } = data as GeneratedData;
 const categories = [
   { id: "ott", label: "OTT / 영상" },
   { id: "ai-agent", label: "AI 에이전트" },
+  { id: "ai-creative", label: "AI 창작" },
   { id: "productivity", label: "생산성 / 크리에이티브" },
   { id: "music", label: "음악" },
+  { id: "social", label: "소셜" },
+  { id: "education", label: "교육" },
 ] as const;
 
 const categoryLabelById = new Map(categories.map((category) => [category.id, category.label]));
@@ -77,7 +80,7 @@ const jsonLd = [
 >
   <section aria-labelledby="hero-title" class="home-hero">
     <h1 id="hero-title">구독 서비스<br />국가별 가격 비교</h1>
-    <p>OTT, AI, 음악, 생산성 구독 가격을 KRW 기준으로 비교해요</p>
+    <p>OTT, AI, 창작, 음악, 생산성 구독 가격을 KRW 기준으로 비교해요</p>
   </section>
 
   <div class="search-wrap home-search" role="search">

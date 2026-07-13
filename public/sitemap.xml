@@ -25,6 +25,12 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://notoow.github.io/global-price-map/services/hbo-max-standard-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://notoow.github.io/global-price-map/services/chatgpt-plus-ios/</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
@@ -43,13 +49,79 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://notoow.github.io/global-price-map/services/grok-supergrok-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/glm-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/character-ai-plus-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://notoow.github.io/global-price-map/services/perplexity-pro-ios/</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://notoow.github.io/global-price-map/services/grok-supergrok-ios/</loc>
+    <loc>https://notoow.github.io/global-price-map/services/microsoft-copilot-pro-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/manus-basic-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/kimi-moderato-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/cursor-pro-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/capcut-pro-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/leonardo-ai-essential-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/kling-ai-standard-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/runway-standard-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/picsart-gold-ios/</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -57,6 +129,18 @@
   <url>
     <loc>https://notoow.github.io/global-price-map/services/adobe-creative-cloud/</loc>
     <lastmod>2026-07-01</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/canva-pro-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/notion-ai-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
@@ -74,6 +158,18 @@
   </url>
   <url>
     <loc>https://notoow.github.io/global-price-map/services/suno-pro-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/x-premium-ios/</loc>
+    <lastmod>2026-07-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://notoow.github.io/global-price-map/services/duolingo-super-ios/</loc>
     <lastmod>2026-07-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
