@@ -11,10 +11,10 @@ permissions:
   pages: write
   id-token: write
 
-# 동시에 두 배포가 겹치지 않도록 (진행 중인 배포는 취소하지 않고 기다림)
+# 최신 커밋만 배포하면 되므로 오래 걸리는 이전 Pages 실행은 취소
 concurrency:
   group: pages
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
