@@ -193,12 +193,18 @@ button, input {
 
 /* ── 서비스 카드 ── */
 .svc-card {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   background: var(--surface-1);
   border: 0.5px solid var(--border);
   border-radius: var(--radius-lg);
-  padding: 1.1rem 1.2rem;
+  padding: 1rem 1.1rem;
+  min-height: 152px;
   cursor: pointer;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   transition: border-color 0.15s, box-shadow 0.12s;
   text-align: left;
   width: 100%;
@@ -212,17 +218,43 @@ button, input {
   outline: none;
 }
 
+.svc-card__logo-bg {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  z-index: 0;
+  width: max(92px, 54%);
+  aspect-ratio: 1;
+  border-radius: 27%;
+  opacity: 0.2;
+  pointer-events: none;
+  transform: rotate(-4deg);
+}
+
+.svc-card__logo-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.18);
+}
+
 .svc-card__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 14px;
+  gap: 0.75rem;
+  margin-bottom: 22px;
+  position: relative;
+  z-index: 1;
 }
 
 .svc-card__name {
-  font-size: 13.5px;
-  font-weight: 500;
+  font-size: 14px;
+  font-weight: 600;
   color: var(--text-primary);
+  max-width: 76%;
+  line-height: 1.28;
 }
 
 .svc-card__arrow {
@@ -235,12 +267,30 @@ button, input {
   align-items: flex-end;
   justify-content: space-between;
   gap: 0.5rem;
+  position: relative;
+  z-index: 1;
 }
 
 .svc-card__label {
   font-size: 11px;
   color: var(--text-muted);
   margin-bottom: 5px;
+}
+
+.svc-card__country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.svc-card__country span,
+.svc-card__empty {
+  font-size: 13px;
+  color: var(--text-primary);
+}
+
+.svc-card__price {
+  text-align: right;
 }
 
 .svc-card__krw {
@@ -256,6 +306,10 @@ button, input {
   font-weight: 500;
   color: var(--text-success);
   margin-top: 3px;
+}
+
+.svc-card__saving--muted {
+  color: var(--text-muted);
 }
 
 /* ── 국가 도트 ── */
@@ -494,6 +548,33 @@ button, input {
 @media (max-width: 480px) {
   .rank-hero__krw-price { font-size: 28px; }
   .service-grid { grid-template-columns: 1fr 1fr; }
+  .svc-card {
+    min-height: 166px;
+    padding: 0.95rem 1rem;
+  }
+  .svc-card__header {
+    margin-bottom: 18px;
+  }
+  .svc-card__name {
+    font-size: 14px;
+    max-width: 82%;
+  }
+  .svc-card__body {
+    display: block;
+  }
+  .svc-card__country span {
+    white-space: nowrap;
+  }
+  .svc-card__price {
+    margin-top: 5px;
+    text-align: left;
+  }
+  .svc-card__krw {
+    font-size: 19px;
+  }
+  .svc-card__saving {
+    font-size: 10.5px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

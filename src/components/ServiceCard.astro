@@ -1,6 +1,7 @@
 ---
 import CountryDot from "./CountryDot.astro";
 import type { ServiceWithOffers } from "../lib/schema.ts";
+import { withBase } from "../lib/site.ts";
 
 interface Props {
   service: ServiceWithOffers;
@@ -11,6 +12,7 @@ const { service, href } = Astro.props;
 
 const cheapest = service.offers[0];
 const baseline = service.offers.find((o) => o.isBaseline);
+const logoSrc = service.logo ? withBase(service.logo) : null;
 
 const saving =
   cheapest && baseline && cheapest.country !== baseline.country
@@ -20,14 +22,32 @@ const saving =
 const fmt = (n: number) => n.toLocaleString("ko-KR");
 ---
 
-<a href={href} class="svc-card" aria-label={`${service.name} — 최저가 ${cheapest?.countryName ?? "—"} ₩${cheapest ? fmt(cheapest.krwPrice) : "—"}`}>
+<a
+  href={href}
+  class="svc-card"
+  aria-label={`${service.name} 최저가 ${cheapest?.countryName ?? "없음"} ${cheapest ? fmt(cheapest.krwPrice) : "없음"}`}
+>
+  {logoSrc && (
+    <span class="svc-card__logo-bg" aria-hidden="true">
+      <img src={logoSrc} alt="" loading="lazy" decoding="async" />
+    </span>
+  )}
+
   <div class="svc-card__header">
     <span class="svc-card__name">{service.name}</span>
-    <!-- 오른쪽 화살표 -->
-    <svg class="svc-card__arrow" width="15" height="15" viewBox="0 0 24 24" fill="none"
-      stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
-      aria-hidden="true">
-      <path d="M5 12h14M12 5l7 7-7 7"/>
+    <svg
+      class="svc-card__arrow"
+      width="15"
+      height="15"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      aria-hidden="true"
+    >
+      <path d="M5 12h14M12 5l7 7-7 7" />
     </svg>
   </div>
 
@@ -35,27 +55,27 @@ const fmt = (n: number) => n.toLocaleString("ko-KR");
     <div>
       <p class="svc-card__label">최저가 국가</p>
       {cheapest ? (
-        <div style="display:flex;align-items:center;gap:6px;">
+        <div class="svc-card__country">
           <CountryDot code={cheapest.country} size={20} />
-          <span style="font-size:13px;color:var(--text-primary);">{cheapest.countryName}</span>
+          <span>{cheapest.countryName}</span>
         </div>
       ) : (
-        <span style="font-size:13px;color:var(--text-muted);">—</span>
+        <span class="svc-card__empty">없음</span>
       )}
     </div>
 
-    <div style="text-align:right;">
+    <div class="svc-card__price">
       {cheapest ? (
         <>
           <div class="svc-card__krw">₩{fmt(cheapest.krwPrice)}</div>
           {saving !== null ? (
             <div class="svc-card__saving">한국 대비 -{saving}%</div>
           ) : (
-            <div class="svc-card__saving" style="color:var(--text-muted);">기준 국가</div>
+            <div class="svc-card__saving svc-card__saving--muted">기준 국가</div>
           )}
         </>
       ) : (
-        <span class="text-muted" style="font-size:13px;">데이터 없음</span>
+        <span class="svc-card__empty">데이터 없음</span>
       )}
     </div>
   </div>

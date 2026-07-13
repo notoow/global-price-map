@@ -1,11 +1,12 @@
 {
-  "generatedAt": "2026-07-13T02:10:29.373Z",
+  "generatedAt": "2026-07-13T05:15:59.270Z",
   "ratesAsOf": "2026-07-13",
   "services": [
     {
       "id": "youtube-premium",
       "name": "YouTube Premium",
       "plan": "개인 · 월정액",
+      "logo": "/service-logos/youtube-premium.jpg",
       "offers": [
         {
           "country": "TR",
@@ -133,6 +134,7 @@
       "id": "netflix",
       "name": "Netflix",
       "plan": "Standard · 월정액",
+      "logo": "/service-logos/netflix.jpg",
       "offers": [
         {
           "country": "TR",
@@ -260,6 +262,7 @@
       "id": "spotify-premium",
       "name": "Spotify Premium",
       "plan": "개인 · 월정액",
+      "logo": "/service-logos/spotify-premium.jpg",
       "offers": [
         {
           "country": "IN",
@@ -387,6 +390,7 @@
       "id": "apple-music",
       "name": "Apple Music",
       "plan": "개인 · 월정액",
+      "logo": "/service-logos/apple-music.jpg",
       "offers": [
         {
           "country": "TR",
@@ -514,6 +518,7 @@
       "id": "disney-plus",
       "name": "Disney+",
       "plan": "Standard · 월정액",
+      "logo": "/service-logos/disney-plus.jpg",
       "offers": [
         {
           "country": "IN",
@@ -641,6 +646,7 @@
       "id": "adobe-creative-cloud",
       "name": "Adobe Creative Cloud",
       "plan": "Pro/모든 앱 · 연간 월청구",
+      "logo": "/service-logos/adobe-creative-cloud.svg",
       "offers": [
         {
           "country": "IN",
@@ -768,6 +774,7 @@
       "id": "chatgpt-plus-ios",
       "name": "ChatGPT Plus",
       "plan": "iOS App Store · 월정액",
+      "logo": "/service-logos/chatgpt-plus-ios.jpg",
       "offers": [
         {
           "country": "PH",
@@ -1191,6 +1198,7 @@
       "id": "claude-pro-ios",
       "name": "Claude Pro",
       "plan": "iOS App Store · 월정액",
+      "logo": "/service-logos/claude-pro-ios.jpg",
       "offers": [
         {
           "country": "PK",
@@ -1614,6 +1622,7 @@
       "id": "gemini-ai-pro-ios",
       "name": "Google AI Pro",
       "plan": "iOS App Store · 월정액",
+      "logo": "/service-logos/gemini-ai-pro-ios.jpg",
       "offers": [
         {
           "country": "EG",
@@ -2053,6 +2062,7 @@
       "id": "perplexity-pro-ios",
       "name": "Perplexity Pro",
       "plan": "iOS App Store · 월정액",
+      "logo": "/service-logos/perplexity-pro-ios.jpg",
       "offers": [
         {
           "country": "PK",
@@ -2492,6 +2502,7 @@
       "id": "grok-supergrok-ios",
       "name": "SuperGrok",
       "plan": "iOS App Store · 월정액",
+      "logo": "/service-logos/grok-supergrok-ios.jpg",
       "offers": [
         {
           "country": "IN",
@@ -2931,6 +2942,7 @@
       "id": "suno-pro-ios",
       "name": "Suno Pro",
       "plan": "iOS App Store · 월정액",
+      "logo": "/service-logos/suno-pro-ios.jpg",
       "offers": [
         {
           "country": "JP",
