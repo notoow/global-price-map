@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-07-18T02:10:24.972Z",
-  "ratesAsOf": "2026-07-18",
+  "generatedAt": "2026-07-19T02:20:44.546Z",
+  "ratesAsOf": "2026-07-19",
   "services": [
     {
       "id": "youtube-premium",
@@ -409,7 +409,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/hbo-max-stream-movies-tv/id1666653815",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -434,7 +434,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -444,13 +444,13 @@
           "currencySymbol": "Rs",
           "price": 4900,
           "priceLabel": "Rs 4,900.00",
-          "krwPrice": 26211,
+          "krwPrice": 26208,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -466,7 +466,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -482,7 +482,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -498,7 +498,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -514,7 +514,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -530,7 +530,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -540,13 +540,13 @@
           "currencySymbol": "E£",
           "price": 999.99,
           "priceLabel": "EGP 999.99",
-          "krwPrice": 29418,
+          "krwPrice": 29412,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -562,7 +562,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -578,7 +578,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -594,7 +594,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -610,7 +610,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -626,7 +626,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -642,7 +642,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -652,13 +652,13 @@
           "currencySymbol": "NT$",
           "price": 690,
           "priceLabel": "$690.00",
-          "krwPrice": 31685,
+          "krwPrice": 31680,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -674,7 +674,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -684,13 +684,13 @@
           "currencySymbol": "₦",
           "price": 31500,
           "priceLabel": "₦ 31,500.00",
-          "krwPrice": 34140,
+          "krwPrice": 34124,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -706,7 +706,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -722,7 +722,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -738,7 +738,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -754,7 +754,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -770,7 +770,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -786,7 +786,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -802,7 +802,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -818,7 +818,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -834,7 +834,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/chatgpt/id6448311069",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -853,7 +853,7 @@
           "currencySymbol": "Rs",
           "price": 4900,
           "priceLabel": "Rs 4,900.00",
-          "krwPrice": 26211,
+          "krwPrice": 26208,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/claude-by-anthropic/id6473753684",
@@ -875,7 +875,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -891,7 +891,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -901,7 +901,7 @@
           "currencySymbol": "E£",
           "price": 999.99,
           "priceLabel": "EGP 999.99",
-          "krwPrice": 29418,
+          "krwPrice": 29412,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/claude-by-anthropic/id6473753684",
@@ -923,7 +923,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -939,7 +939,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -955,7 +955,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -971,7 +971,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -987,7 +987,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1003,7 +1003,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1019,7 +1019,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1035,7 +1035,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1045,13 +1045,13 @@
           "currencySymbol": "NT$",
           "price": 690,
           "priceLabel": "$690.00",
-          "krwPrice": 31685,
+          "krwPrice": 31680,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1061,7 +1061,7 @@
           "currencySymbol": "₦",
           "price": 29900,
           "priceLabel": "₦ 29,900.00",
-          "krwPrice": 32406,
+          "krwPrice": 32391,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/claude-by-anthropic/id6473753684",
@@ -1083,7 +1083,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -1099,7 +1099,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1115,7 +1115,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1131,7 +1131,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1147,7 +1147,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1163,7 +1163,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1179,7 +1179,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1195,7 +1195,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1211,7 +1211,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1227,7 +1227,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1243,7 +1243,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1259,7 +1259,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/claude-by-anthropic/id6473753684",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -1278,13 +1278,13 @@
           "currencySymbol": "E£",
           "price": 699.99,
           "priceLabel": "EGP 699.99",
-          "krwPrice": 20593,
+          "krwPrice": 20589,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1300,7 +1300,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1316,7 +1316,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1332,7 +1332,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1348,7 +1348,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1364,7 +1364,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1380,7 +1380,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1396,7 +1396,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -1412,7 +1412,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1428,7 +1428,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1438,13 +1438,13 @@
           "currencySymbol": "NT$",
           "price": 650,
           "priceLabel": "$650.00",
-          "krwPrice": 29848,
+          "krwPrice": 29844,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1460,7 +1460,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1470,13 +1470,13 @@
           "currencySymbol": "Rs",
           "price": 5600,
           "priceLabel": "Rs 5,600.00",
-          "krwPrice": 29955,
+          "krwPrice": 29952,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1492,7 +1492,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1502,13 +1502,13 @@
           "currencySymbol": "₦",
           "price": 28500,
           "priceLabel": "₦ 28,500.00",
-          "krwPrice": 30889,
+          "krwPrice": 30874,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1524,7 +1524,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1540,7 +1540,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1556,7 +1556,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1572,7 +1572,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1588,7 +1588,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1604,7 +1604,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1620,7 +1620,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1636,7 +1636,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1652,7 +1652,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1668,7 +1668,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1684,7 +1684,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1700,7 +1700,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/google-gemini/id6477489729",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -1725,7 +1725,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1741,7 +1741,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1757,7 +1757,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1767,13 +1767,13 @@
           "currencySymbol": "Rs",
           "price": 7900,
           "priceLabel": "Rs 7,900.00",
-          "krwPrice": 42258,
+          "krwPrice": 42254,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1789,7 +1789,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1805,7 +1805,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1821,7 +1821,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1837,7 +1837,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1853,7 +1853,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1869,7 +1869,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -1885,7 +1885,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1895,13 +1895,13 @@
           "currencySymbol": "E£",
           "price": 1499.99,
           "priceLabel": "EGP 1,499.99",
-          "krwPrice": 44128,
+          "krwPrice": 44119,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1917,7 +1917,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1933,7 +1933,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1943,13 +1943,13 @@
           "currencySymbol": "NT$",
           "price": 990,
           "priceLabel": "$990.00",
-          "krwPrice": 45461,
+          "krwPrice": 45455,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1965,7 +1965,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1981,7 +1981,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -1997,7 +1997,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2013,7 +2013,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2029,7 +2029,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2045,7 +2045,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2055,13 +2055,13 @@
           "currencySymbol": "₦",
           "price": 49900,
           "priceLabel": "₦ 49,900.00",
-          "krwPrice": 54083,
+          "krwPrice": 54057,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2077,7 +2077,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2093,7 +2093,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2109,7 +2109,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2125,7 +2125,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2141,7 +2141,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/grok-ai/id6670324846",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -2166,7 +2166,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2182,7 +2182,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2198,7 +2198,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2214,7 +2214,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -2230,7 +2230,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2240,13 +2240,13 @@
           "currencySymbol": "NT$",
           "price": 320,
           "priceLabel": "$320.00",
-          "krwPrice": 14694,
+          "krwPrice": 14692,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2256,13 +2256,13 @@
           "currencySymbol": "E£",
           "price": 499.99,
           "priceLabel": "EGP 499.99",
-          "krwPrice": 14709,
+          "krwPrice": 14706,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2278,7 +2278,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2294,7 +2294,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2310,7 +2310,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2320,13 +2320,13 @@
           "currencySymbol": "Rs",
           "price": 2900,
           "priceLabel": "Rs 2,900.00",
-          "krwPrice": 15513,
+          "krwPrice": 15511,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2342,7 +2342,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2358,7 +2358,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2374,7 +2374,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2390,7 +2390,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2406,7 +2406,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2422,7 +2422,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2438,7 +2438,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2454,7 +2454,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2470,7 +2470,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2486,7 +2486,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2502,7 +2502,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2518,7 +2518,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/%E6%99%BA%E8%B0%B1%E6%B8%85%E8%A8%80-ai%E6%99%BA%E8%83%BD%E4%BD%93%E5%AE%9A%E5%88%B6%E8%A7%86%E9%A2%91%E9%80%9A%E8%AF%9D%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E6%B7%B1%E5%BA%A6%E6%8E%A8%E7%90%86%E9%97%AE%E7%AD%94%E8%81%8A%E5%A4%A9%E5%8A%A9%E6%89%8B/id6450893458",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -2537,13 +2537,13 @@
           "currencySymbol": "₦",
           "price": 4900,
           "priceLabel": "₦ 4,900.00",
-          "krwPrice": 5311,
+          "krwPrice": 5308,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2559,7 +2559,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2569,13 +2569,13 @@
           "currencySymbol": "E£",
           "price": 299.99,
           "priceLabel": "EGP 299.99",
-          "krwPrice": 8825,
+          "krwPrice": 8823,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2591,7 +2591,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2607,7 +2607,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2623,7 +2623,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2639,7 +2639,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2655,7 +2655,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -2671,7 +2671,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2681,13 +2681,13 @@
           "currencySymbol": "NT$",
           "price": 320,
           "priceLabel": "$320.00",
-          "krwPrice": 14694,
+          "krwPrice": 14692,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2703,7 +2703,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2719,7 +2719,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2735,7 +2735,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2751,7 +2751,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2761,13 +2761,13 @@
           "currencySymbol": "Rs",
           "price": 2900,
           "priceLabel": "Rs 2,900.00",
-          "krwPrice": 15513,
+          "krwPrice": 15511,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2783,7 +2783,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2799,7 +2799,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2815,7 +2815,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2831,7 +2831,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2847,7 +2847,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2863,7 +2863,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2879,7 +2879,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2895,7 +2895,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2911,7 +2911,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2927,7 +2927,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2943,7 +2943,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -2959,7 +2959,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/character-ai-chat-talk-text/id1671705818",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -2978,13 +2978,13 @@
           "currencySymbol": "Rs",
           "price": 4900,
           "priceLabel": "Rs 4,900.00",
-          "krwPrice": 26211,
+          "krwPrice": 26208,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3000,7 +3000,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3016,7 +3016,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3032,7 +3032,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3048,7 +3048,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3058,13 +3058,13 @@
           "currencySymbol": "E£",
           "price": 999.99,
           "priceLabel": "EGP 999.99",
-          "krwPrice": 29418,
+          "krwPrice": 29412,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3080,7 +3080,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3096,7 +3096,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3112,7 +3112,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3128,7 +3128,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3144,7 +3144,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3160,7 +3160,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3176,7 +3176,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3186,13 +3186,13 @@
           "currencySymbol": "NT$",
           "price": 690,
           "priceLabel": "$690.00",
-          "krwPrice": 31685,
+          "krwPrice": 31680,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3202,13 +3202,13 @@
           "currencySymbol": "₦",
           "price": 29900,
           "priceLabel": "₦ 29,900.00",
-          "krwPrice": 32406,
+          "krwPrice": 32391,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3224,7 +3224,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -3240,7 +3240,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3256,7 +3256,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3272,7 +3272,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3288,7 +3288,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3304,7 +3304,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3320,7 +3320,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3336,7 +3336,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3352,7 +3352,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3368,7 +3368,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3384,7 +3384,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3400,7 +3400,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/perplexity-ai-search-chat/id1668000334",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -3419,7 +3419,7 @@
           "currencySymbol": "₦",
           "price": 17000,
           "priceLabel": "₦ 17,000.00",
-          "krwPrice": 18425,
+          "krwPrice": 18416,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/microsoft-365-copilot/id541164041",
@@ -3435,7 +3435,7 @@
           "currencySymbol": "E£",
           "price": 700,
           "priceLabel": "EGP 700.00",
-          "krwPrice": 20593,
+          "krwPrice": 20589,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/microsoft-365-copilot/id541164041",
@@ -3579,7 +3579,7 @@
           "currencySymbol": "Rs",
           "price": 5600,
           "priceLabel": "Rs 5,600.00",
-          "krwPrice": 29955,
+          "krwPrice": 29952,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/microsoft-365-copilot/id541164041",
@@ -3611,7 +3611,7 @@
           "currencySymbol": "NT$",
           "price": 670,
           "priceLabel": "$670.00",
-          "krwPrice": 30766,
+          "krwPrice": 30762,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/microsoft-365-copilot/id541164041",
@@ -3866,7 +3866,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3882,7 +3882,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -3898,7 +3898,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3908,13 +3908,13 @@
           "currencySymbol": "Rs",
           "price": 4900,
           "priceLabel": "Rs 4,900.00",
-          "krwPrice": 26211,
+          "krwPrice": 26208,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3930,7 +3930,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3940,13 +3940,13 @@
           "currencySymbol": "NT$",
           "price": 590,
           "priceLabel": "$590.00",
-          "krwPrice": 27093,
+          "krwPrice": 27089,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3962,7 +3962,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3978,7 +3978,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -3994,7 +3994,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4010,7 +4010,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4026,7 +4026,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4036,13 +4036,13 @@
           "currencySymbol": "E£",
           "price": 999.99,
           "priceLabel": "EGP 999.99",
-          "krwPrice": 29418,
+          "krwPrice": 29412,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4058,7 +4058,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4074,7 +4074,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4090,7 +4090,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4106,7 +4106,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4116,13 +4116,13 @@
           "currencySymbol": "₦",
           "price": 29900,
           "priceLabel": "₦ 29,900.00",
-          "krwPrice": 32406,
+          "krwPrice": 32391,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4138,7 +4138,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4154,7 +4154,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4170,7 +4170,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4186,7 +4186,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4202,7 +4202,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4218,7 +4218,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4234,7 +4234,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4250,7 +4250,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4266,7 +4266,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4282,7 +4282,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/manus-ai-agent-automation/id6740909540",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -4307,7 +4307,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4323,7 +4323,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -4339,7 +4339,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4349,13 +4349,13 @@
           "currencySymbol": "Rs",
           "price": 4900,
           "priceLabel": "Rs 4,900.00",
-          "krwPrice": 26211,
+          "krwPrice": 26208,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4371,7 +4371,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4381,13 +4381,13 @@
           "currencySymbol": "NT$",
           "price": 590,
           "priceLabel": "$590.00",
-          "krwPrice": 27093,
+          "krwPrice": 27089,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4403,7 +4403,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4419,7 +4419,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4435,7 +4435,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4451,7 +4451,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4467,7 +4467,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4477,13 +4477,13 @@
           "currencySymbol": "E£",
           "price": 999.99,
           "priceLabel": "EGP 999.99",
-          "krwPrice": 29418,
+          "krwPrice": 29412,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4499,7 +4499,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4515,7 +4515,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4531,7 +4531,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4547,7 +4547,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4557,13 +4557,13 @@
           "currencySymbol": "₦",
           "price": 29900,
           "priceLabel": "₦ 29,900.00",
-          "krwPrice": 32406,
+          "krwPrice": 32391,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4579,7 +4579,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4595,7 +4595,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4611,7 +4611,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4627,7 +4627,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4643,7 +4643,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4659,7 +4659,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4675,7 +4675,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4691,7 +4691,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4707,7 +4707,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4723,7 +4723,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/kimi-kimi-k2-6-is-live/id6474233312",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -4748,7 +4748,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4764,7 +4764,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4780,7 +4780,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4790,13 +4790,13 @@
           "currencySymbol": "Rs",
           "price": 6900,
           "priceLabel": "Rs 6,900.00",
-          "krwPrice": 36909,
+          "krwPrice": 36905,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4812,7 +4812,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4822,13 +4822,13 @@
           "currencySymbol": "E£",
           "price": 1299.99,
           "priceLabel": "EGP 1,299.99",
-          "krwPrice": 38244,
+          "krwPrice": 38236,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4844,7 +4844,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4860,7 +4860,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4876,7 +4876,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4886,13 +4886,13 @@
           "currencySymbol": "NT$",
           "price": 890,
           "priceLabel": "$890.00",
-          "krwPrice": 40869,
+          "krwPrice": 40863,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4908,7 +4908,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4924,7 +4924,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4934,13 +4934,13 @@
           "currencySymbol": "₦",
           "price": 39900,
           "priceLabel": "₦ 39,900.00",
-          "krwPrice": 43245,
+          "krwPrice": 43224,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4956,7 +4956,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4972,7 +4972,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -4988,7 +4988,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -5004,7 +5004,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5020,7 +5020,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5036,7 +5036,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5052,7 +5052,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5068,7 +5068,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5084,7 +5084,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5100,7 +5100,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5116,7 +5116,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5132,7 +5132,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5148,7 +5148,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5164,7 +5164,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/cursor/id6767085653",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -5189,7 +5189,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5199,13 +5199,13 @@
           "currencySymbol": "Rs",
           "price": 2200,
           "priceLabel": "Rs 2,200.00",
-          "krwPrice": 11768,
+          "krwPrice": 11767,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5221,7 +5221,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5237,7 +5237,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5253,7 +5253,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5269,7 +5269,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5279,13 +5279,13 @@
           "currencySymbol": "E£",
           "price": 499.99,
           "priceLabel": "EGP 499.99",
-          "krwPrice": 14709,
+          "krwPrice": 14706,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5295,13 +5295,13 @@
           "currencySymbol": "₦",
           "price": 14900,
           "priceLabel": "₦ 14,900.00",
-          "krwPrice": 16149,
+          "krwPrice": 16141,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5317,7 +5317,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5333,7 +5333,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5349,7 +5349,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -5365,7 +5365,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5381,7 +5381,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5397,7 +5397,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5413,7 +5413,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5423,13 +5423,13 @@
           "currencySymbol": "NT$",
           "price": 490,
           "priceLabel": "$490.00",
-          "krwPrice": 22501,
+          "krwPrice": 22498,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5445,7 +5445,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5461,7 +5461,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5477,7 +5477,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5493,7 +5493,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5509,7 +5509,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5525,7 +5525,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5541,7 +5541,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5557,7 +5557,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5573,7 +5573,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5589,7 +5589,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/capcut-photo-video-editor/id1500855883",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -5608,13 +5608,13 @@
           "currencySymbol": "₦",
           "price": 7900,
           "priceLabel": "₦ 7,900.00",
-          "krwPrice": 8562,
+          "krwPrice": 8558,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5630,7 +5630,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5640,13 +5640,13 @@
           "currencySymbol": "E£",
           "price": 499.99,
           "priceLabel": "EGP 499.99",
-          "krwPrice": 14709,
+          "krwPrice": 14706,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5662,7 +5662,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5672,13 +5672,13 @@
           "currencySymbol": "Rs",
           "price": 3900,
           "priceLabel": "Rs 3,900.00",
-          "krwPrice": 20862,
+          "krwPrice": 20859,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5694,7 +5694,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5710,7 +5710,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5726,7 +5726,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -5736,13 +5736,13 @@
           "currencySymbol": "NT$",
           "price": 490,
           "priceLabel": "$490.00",
-          "krwPrice": 22501,
+          "krwPrice": 22498,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5758,7 +5758,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5774,7 +5774,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5790,7 +5790,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5806,7 +5806,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5822,7 +5822,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5838,7 +5838,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5854,7 +5854,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5870,7 +5870,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5886,7 +5886,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5902,7 +5902,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5918,7 +5918,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5934,7 +5934,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5950,7 +5950,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5966,7 +5966,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5982,7 +5982,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -5998,7 +5998,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6014,7 +6014,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6030,7 +6030,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/leonardo-ai-image-generator/id1662773014",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -6055,7 +6055,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6071,7 +6071,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6087,7 +6087,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6103,7 +6103,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -6119,7 +6119,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6135,7 +6135,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6145,13 +6145,13 @@
           "currencySymbol": "NT$",
           "price": 320,
           "priceLabel": "$320.00",
-          "krwPrice": 14694,
+          "krwPrice": 14692,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6161,13 +6161,13 @@
           "currencySymbol": "E£",
           "price": 499.99,
           "priceLabel": "EGP 499.99",
-          "krwPrice": 14709,
+          "krwPrice": 14706,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6183,7 +6183,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6199,7 +6199,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6215,7 +6215,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6231,7 +6231,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6247,7 +6247,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6257,13 +6257,13 @@
           "currencySymbol": "Rs",
           "price": 2900,
           "priceLabel": "Rs 2,900.00",
-          "krwPrice": 15513,
+          "krwPrice": 15511,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6273,13 +6273,13 @@
           "currencySymbol": "₦",
           "price": 14900,
           "priceLabel": "₦ 14,900.00",
-          "krwPrice": 16149,
+          "krwPrice": 16141,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6295,7 +6295,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6311,7 +6311,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6327,7 +6327,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6343,7 +6343,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6359,7 +6359,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6375,7 +6375,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6391,7 +6391,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6407,7 +6407,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6423,7 +6423,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6439,7 +6439,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6455,7 +6455,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6471,7 +6471,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/kling-ai-ai-image-video-maker/id6738049229",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -6496,7 +6496,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6506,13 +6506,13 @@
           "currencySymbol": "Rs",
           "price": 4900,
           "priceLabel": "Rs 4,900.00",
-          "krwPrice": 26211,
+          "krwPrice": 26208,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6528,7 +6528,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6538,13 +6538,13 @@
           "currencySymbol": "NT$",
           "price": 590,
           "priceLabel": "$590.00",
-          "krwPrice": 27093,
+          "krwPrice": 27089,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6560,7 +6560,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6576,7 +6576,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6592,7 +6592,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6608,7 +6608,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6624,7 +6624,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6634,13 +6634,13 @@
           "currencySymbol": "E£",
           "price": 999.99,
           "priceLabel": "EGP 999.99",
-          "krwPrice": 29418,
+          "krwPrice": 29412,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6656,7 +6656,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6672,7 +6672,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6688,7 +6688,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6704,7 +6704,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6720,7 +6720,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6730,13 +6730,13 @@
           "currencySymbol": "₦",
           "price": 29900,
           "priceLabel": "₦ 29,900.00",
-          "krwPrice": 32406,
+          "krwPrice": 32391,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6752,7 +6752,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6768,7 +6768,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -6784,7 +6784,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6800,7 +6800,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6816,7 +6816,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6832,7 +6832,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6848,7 +6848,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6864,7 +6864,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6880,7 +6880,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6896,7 +6896,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6912,7 +6912,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/runwayml/id1665024375",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -6937,7 +6937,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6947,13 +6947,13 @@
           "currencySymbol": "₦",
           "price": 1800,
           "priceLabel": "₦ 1,800.00",
-          "krwPrice": 1951,
+          "krwPrice": 1950,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6963,13 +6963,13 @@
           "currencySymbol": "E£",
           "price": 99.99,
           "priceLabel": "EGP 99.99",
-          "krwPrice": 2942,
+          "krwPrice": 2941,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -6985,7 +6985,7 @@
           "sourceUrl": "https://apps.apple.com/pk/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7001,7 +7001,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7017,7 +7017,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7033,7 +7033,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7049,7 +7049,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7065,7 +7065,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7081,7 +7081,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7097,7 +7097,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7113,7 +7113,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7129,7 +7129,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7145,7 +7145,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7161,7 +7161,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7177,7 +7177,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7193,7 +7193,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -7209,7 +7209,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7225,7 +7225,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7241,7 +7241,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7251,13 +7251,13 @@
           "currencySymbol": "NT$",
           "price": 270,
           "priceLabel": "$270.00",
-          "krwPrice": 12398,
+          "krwPrice": 12397,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7273,7 +7273,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7289,7 +7289,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7305,7 +7305,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7321,7 +7321,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7337,7 +7337,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7353,7 +7353,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/picsart-ai-photo-editor-video/id587366035",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -7501,13 +7501,13 @@
           "currencySymbol": "₦",
           "price": 5500,
           "priceLabel": "₦ 5,500.00",
-          "krwPrice": 5961,
+          "krwPrice": 5958,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7517,13 +7517,13 @@
           "currencySymbol": "Rs",
           "price": 1150,
           "priceLabel": "Rs 1,150.00",
-          "krwPrice": 6152,
+          "krwPrice": 6151,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7533,13 +7533,13 @@
           "currencySymbol": "E£",
           "price": 239.99,
           "priceLabel": "EGP 239.99",
-          "krwPrice": 7060,
+          "krwPrice": 7059,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7555,7 +7555,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7571,7 +7571,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7587,7 +7587,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7603,7 +7603,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7619,7 +7619,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7635,7 +7635,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7651,7 +7651,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7667,7 +7667,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7683,7 +7683,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7699,7 +7699,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7715,7 +7715,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7731,7 +7731,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7747,7 +7747,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7763,7 +7763,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7779,7 +7779,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/canva-ai-video-photo-editor/id897446215",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -7804,7 +7804,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7820,7 +7820,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7830,13 +7830,13 @@
           "currencySymbol": "Rs",
           "price": 5900,
           "priceLabel": "Rs 5,900.00",
-          "krwPrice": 31560,
+          "krwPrice": 31557,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7852,7 +7852,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7868,7 +7868,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7884,7 +7884,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7900,7 +7900,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7916,7 +7916,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7932,7 +7932,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7942,13 +7942,13 @@
           "currencySymbol": "E£",
           "price": 1199.99,
           "priceLabel": "EGP 1,199.99",
-          "krwPrice": 35302,
+          "krwPrice": 35295,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7964,7 +7964,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7980,7 +7980,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -7996,7 +7996,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8006,13 +8006,13 @@
           "currencySymbol": "₦",
           "price": 34900,
           "priceLabel": "₦ 34,900.00",
-          "krwPrice": 37825,
+          "krwPrice": 37807,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8028,7 +8028,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8044,7 +8044,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8060,7 +8060,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8076,7 +8076,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/notion-notes-tasks-ai/id1232780281",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -8359,7 +8359,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8375,7 +8375,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8391,7 +8391,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -8407,7 +8407,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8417,13 +8417,13 @@
           "currencySymbol": "NT$",
           "price": 320,
           "priceLabel": "$320.00",
-          "krwPrice": 14694,
+          "krwPrice": 14692,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8433,13 +8433,13 @@
           "currencySymbol": "E£",
           "price": 499.99,
           "priceLabel": "EGP 499.99",
-          "krwPrice": 14709,
+          "krwPrice": 14706,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8455,7 +8455,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8471,7 +8471,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8487,7 +8487,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8503,7 +8503,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8519,7 +8519,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8529,13 +8529,13 @@
           "currencySymbol": "Rs",
           "price": 2900,
           "priceLabel": "Rs 2,900.00",
-          "krwPrice": 15513,
+          "krwPrice": 15511,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8551,7 +8551,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8561,13 +8561,13 @@
           "currencySymbol": "₦",
           "price": 14900,
           "priceLabel": "₦ 14,900.00",
-          "krwPrice": 16149,
+          "krwPrice": 16141,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8583,7 +8583,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8599,7 +8599,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8615,7 +8615,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8631,7 +8631,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8647,7 +8647,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8663,7 +8663,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8679,7 +8679,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8695,7 +8695,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8711,7 +8711,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8727,7 +8727,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8743,7 +8743,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8759,7 +8759,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8775,7 +8775,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/suno-ai-songs-music/id6480136315",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -8800,7 +8800,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8816,7 +8816,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8832,7 +8832,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8842,13 +8842,13 @@
           "currencySymbol": "E£",
           "price": 250,
           "priceLabel": "EGP 250.00",
-          "krwPrice": 7355,
+          "krwPrice": 7353,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8864,7 +8864,7 @@
           "sourceUrl": "https://apps.apple.com/ar/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8874,13 +8874,13 @@
           "currencySymbol": "Rs",
           "price": 1400,
           "priceLabel": "Rs 1,400.00",
-          "krwPrice": 7489,
+          "krwPrice": 7488,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8890,13 +8890,13 @@
           "currencySymbol": "₦",
           "price": 7600,
           "priceLabel": "₦ 7,600.00",
-          "krwPrice": 8237,
+          "krwPrice": 8233,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8912,7 +8912,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8928,7 +8928,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8944,7 +8944,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8960,7 +8960,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8976,7 +8976,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -8992,7 +8992,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9002,13 +9002,13 @@
           "currencySymbol": "NT$",
           "price": 255,
           "priceLabel": "$255.00",
-          "krwPrice": 11710,
+          "krwPrice": 11708,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9024,7 +9024,7 @@
           "sourceUrl": "https://apps.apple.com/kr/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
         },
         {
@@ -9040,7 +9040,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9056,7 +9056,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9072,7 +9072,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9088,7 +9088,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9104,7 +9104,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9120,7 +9120,7 @@
           "sourceUrl": "https://apps.apple.com/pl/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9136,7 +9136,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9152,7 +9152,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9168,7 +9168,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9184,7 +9184,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9200,7 +9200,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9216,7 +9216,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/x/id333903271",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
@@ -9241,7 +9241,7 @@
           "sourceUrl": "https://apps.apple.com/tr/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9257,7 +9257,7 @@
           "sourceUrl": "https://apps.apple.com/us/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9267,13 +9267,13 @@
           "currencySymbol": "E£",
           "price": 529,
           "priceLabel": "EGP 529.00",
-          "krwPrice": 15562,
+          "krwPrice": 15559,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/eg/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9289,7 +9289,7 @@
           "sourceUrl": "https://apps.apple.com/in/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9299,13 +9299,13 @@
           "currencySymbol": "Rs",
           "price": 6099,
           "priceLabel": "Rs 6,099.00",
-          "krwPrice": 32624,
+          "krwPrice": 32621,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/pk/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9321,7 +9321,7 @@
           "sourceUrl": "https://apps.apple.com/ph/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9337,7 +9337,7 @@
           "sourceUrl": "https://apps.apple.com/th/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9353,7 +9353,7 @@
           "sourceUrl": "https://apps.apple.com/id/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9363,13 +9363,13 @@
           "currencySymbol": "₦",
           "price": 47500,
           "priceLabel": "₦ 47,500.00",
-          "krwPrice": 51482,
+          "krwPrice": 51457,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/ng/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9385,7 +9385,7 @@
           "sourceUrl": "https://apps.apple.com/za/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9401,7 +9401,7 @@
           "sourceUrl": "https://apps.apple.com/br/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9417,7 +9417,7 @@
           "sourceUrl": "https://apps.apple.com/my/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9433,7 +9433,23 @@
           "sourceUrl": "https://apps.apple.com/ar/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
+          "isBaseline": false
+        },
+        {
+          "country": "PL",
+          "countryName": "폴란드",
+          "currency": "PLN",
+          "currencySymbol": "zł",
+          "price": 224.99,
+          "priceLabel": "224,99 zł",
+          "krwPrice": 87887,
+          "billingCycle": "monthly",
+          "taxIncluded": true,
+          "sourceUrl": "https://apps.apple.com/pl/app/duolingo-language-lessons/id570060128",
+          "sourceType": "ios_app_store",
+          "sourceName": "iOS App Store",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9449,7 +9465,7 @@
           "sourceUrl": "https://apps.apple.com/jp/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9465,7 +9481,7 @@
           "sourceUrl": "https://apps.apple.com/sg/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9481,24 +9497,8 @@
           "sourceUrl": "https://apps.apple.com/kr/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": true
-        },
-        {
-          "country": "PL",
-          "countryName": "폴란드",
-          "currency": "PLN",
-          "currencySymbol": "zł",
-          "price": 259.99,
-          "priceLabel": "259,99 zł",
-          "krwPrice": 101559,
-          "billingCycle": "monthly",
-          "taxIncluded": true,
-          "sourceUrl": "https://apps.apple.com/pl/app/duolingo-language-lessons/id570060128",
-          "sourceType": "ios_app_store",
-          "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
-          "isBaseline": false
         },
         {
           "country": "GB",
@@ -9513,7 +9513,7 @@
           "sourceUrl": "https://apps.apple.com/gb/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9523,13 +9523,13 @@
           "currencySymbol": "NT$",
           "price": 2650,
           "priceLabel": "$2,650.00",
-          "krwPrice": 121688,
+          "krwPrice": 121671,
           "billingCycle": "monthly",
           "taxIncluded": true,
           "sourceUrl": "https://apps.apple.com/tw/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9545,7 +9545,7 @@
           "sourceUrl": "https://apps.apple.com/mx/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9561,7 +9561,7 @@
           "sourceUrl": "https://apps.apple.com/hk/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9577,7 +9577,7 @@
           "sourceUrl": "https://apps.apple.com/ca/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9593,7 +9593,7 @@
           "sourceUrl": "https://apps.apple.com/nz/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9609,7 +9609,7 @@
           "sourceUrl": "https://apps.apple.com/au/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9625,7 +9625,7 @@
           "sourceUrl": "https://apps.apple.com/de/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9641,7 +9641,7 @@
           "sourceUrl": "https://apps.apple.com/dk/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         },
         {
@@ -9657,7 +9657,7 @@
           "sourceUrl": "https://apps.apple.com/fr/app/duolingo-language-lessons/id570060128",
           "sourceType": "ios_app_store",
           "sourceName": "iOS App Store",
-          "checkedAt": "2026-07-18",
+          "checkedAt": "2026-07-19",
           "isBaseline": false
         }
       ]
