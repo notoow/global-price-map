@@ -77,6 +77,23 @@ async function main() {
   const neededCurrencies = [...new Set(facts.map((fact) => fact.currency))];
   const ratesResult = await fetchRates(neededCurrencies);
 
+  const rateChanges = Object.fromEntries(
+    neededCurrencies
+      .filter((currency) => currency !== "KRW")
+      .flatMap((currency) => {
+        const current = ratesResult.rates[currency];
+        const previous = ratesResult.previous?.rates[currency];
+        if (!current || !previous) return [];
+
+        return [[currency, {
+          current,
+          previous,
+          previousDate: ratesResult.previous!.date,
+          changePercent: Number(((current / previous - 1) * 100).toFixed(2)),
+        }]];
+      }),
+  );
+
   const factsByService = new Map<string, PriceFact[]>();
   for (const fact of facts) {
     const list = factsByService.get(fact.service) ?? [];
@@ -125,6 +142,8 @@ async function main() {
   const output: GeneratedData = {
     generatedAt: new Date().toISOString(),
     ratesAsOf: ratesResult.date,
+    rates: ratesResult.rates,
+    rateChanges,
     services: result,
   };
 

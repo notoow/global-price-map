@@ -6,7 +6,7 @@ import { SITE, absoluteUrl, withBase } from "../lib/site.ts";
 
 import data from "../data/generated/services.json";
 
-const { services, ratesAsOf } = data as GeneratedData;
+const { services, ratesAsOf, rates, rateChanges } = data as GeneratedData;
 
 const categories = [
   { id: "ott", label: "OTT / 영상" },
@@ -25,6 +25,15 @@ const serviceGroups = categories
     services: services.filter((service) => service.category === category.id),
   }))
   .filter((group) => group.services.length > 0);
+
+const rateRows = Object.entries(rateChanges)
+  .sort(([, a], [, b]) => Math.abs(b.changePercent) - Math.abs(a.changePercent))
+  .slice(0, 8);
+const fmtRate = (currency: string) => {
+  const rate = rates[currency];
+  if (!rate) return "—";
+  return `₩${Math.round(1 / rate).toLocaleString("ko-KR")}`;
+};
 
 const serviceItems = services.map((svc, index) => ({
   "@type": "ListItem",
@@ -111,6 +120,31 @@ const jsonLd = [
     <p>전체 <span id="count">{services.length}</span>개 서비스</p>
     <p>섹션별 정렬</p>
   </div>
+
+  <section class="rate-panel" aria-labelledby="rate-panel-title">
+    <div class="rate-panel__header">
+      <div>
+        <h2 id="rate-panel-title">환율 변동</h2>
+        <p>가격 환산에 사용한 통화의 이전 수집 시점 대비 변화</p>
+      </div>
+      <span>{rateRows.length > 0 ? `${ratesAsOf} 기준` : "이력 수집 중"}</span>
+    </div>
+    {rateRows.length > 0 ? (
+      <div class="rate-grid">
+        {rateRows.map(([currency, change]) => (
+          <div class="rate-item">
+            <div class="rate-item__currency">{currency}</div>
+            <div class="rate-item__value">1 {currency} ≈ {fmtRate(currency)}</div>
+            <div class={`rate-item__change ${change.changePercent > 0 ? "rate-item__change--up" : "rate-item__change--down"}`}>
+              {change.changePercent > 0 ? "↑" : "↓"} {Math.abs(change.changePercent).toFixed(2)}%
+            </div>
+          </div>
+        ))}
+      </div>
+    ) : (
+      <p class="rate-panel__empty">다음 환율 갱신부터 이전 수집 시점과의 변동률이 표시됩니다.</p>
+    )}
+  </section>
 
   <section aria-label="서비스 목록" class="service-sections">
     {serviceGroups.map((group) => (

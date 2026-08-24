@@ -79,5 +79,14 @@ export interface ServiceWithOffers extends ServiceMeta {
 export interface GeneratedData {
   generatedAt: string;
   ratesAsOf: string;
+  rates: Record<string, number>;
+  rateChanges: Record<string, RateChange>;
   services: ServiceWithOffers[];
+}
+
+export interface RateChange {
+  current: number;
+  previous: number;
+  previousDate: string;
+  changePercent: number;
 }

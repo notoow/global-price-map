@@ -7,21 +7,27 @@ import { PriceFactSchema } from "../src/lib/schema.ts";
 const FRANKFURTER_URL = "https://api.frankfurter.dev/v1/latest";
 const EXCHANGE_RATE_API_URL = "https://open.er-api.com/v6/latest/KRW";
 const CACHE_PATH = path.resolve("data/.cache/rates.json");
+const HISTORY_PATH = path.resolve("data/.cache/rates-history.json");
 const RAW_DIR = path.resolve("data/raw");
 const APP_STORE_FACTS_FILE = path.resolve("data/app-store/generated/price-facts.json");
 const FETCH_TIMEOUT_MS = 8000;
+const MAX_HISTORY_SNAPSHOTS = 120;
 
-export interface RatesResult {
+export interface RateSnapshot {
   date: string;
   base: "KRW";
   rates: Record<string, number>; // currency -> "1 KRW = X <currency>"
-  source: "live" | "cache";
 }
 
-interface CacheFile {
-  date: string;
-  base: "KRW";
-  rates: Record<string, number>;
+export interface RatesResult extends RateSnapshot {
+  source: "live" | "cache";
+  previous?: RateSnapshot;
+}
+
+interface CacheFile extends RateSnapshot {}
+
+interface HistoryFile {
+  snapshots: RateSnapshot[];
 }
 
 interface FrankfurterResponse {
@@ -50,9 +56,49 @@ function readCache(): CacheFile | null {
   }
 }
 
+function readHistory(): HistoryFile {
+  if (!existsSync(HISTORY_PATH)) return { snapshots: [] };
+
+  try {
+    const parsed = JSON.parse(readFileSync(HISTORY_PATH, "utf-8")) as Partial<HistoryFile>;
+    const snapshots = Array.isArray(parsed.snapshots) ? parsed.snapshots : [];
+    return {
+      snapshots: snapshots.filter(
+        (snapshot): snapshot is RateSnapshot =>
+          typeof snapshot?.date === "string" &&
+          snapshot.base === "KRW" &&
+          typeof snapshot.rates === "object" &&
+          snapshot.rates !== null,
+      ),
+    };
+  } catch {
+    return { snapshots: [] };
+  }
+}
+
 function writeCache(data: CacheFile) {
   mkdirSync(path.dirname(CACHE_PATH), { recursive: true });
   writeFileSync(CACHE_PATH, JSON.stringify(data, null, 2) + "\n", "utf-8");
+}
+
+function writeHistory(snapshot: RateSnapshot) {
+  const history = readHistory();
+  const snapshots = [
+    ...history.snapshots.filter((item) => item.date !== snapshot.date),
+    snapshot,
+  ]
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .slice(-MAX_HISTORY_SNAPSHOTS);
+
+  mkdirSync(path.dirname(HISTORY_PATH), { recursive: true });
+  writeFileSync(HISTORY_PATH, JSON.stringify({ snapshots }, null, 2) + "\n", "utf-8");
+}
+
+function previousSnapshot(history: HistoryFile, date: string, fallback?: RateSnapshot): RateSnapshot | undefined {
+  return [...history.snapshots]
+    .filter((snapshot) => snapshot.date < date)
+    .sort((a, b) => a.date.localeCompare(b.date))
+    .at(-1) ?? (fallback && fallback.date < date ? fallback : undefined);
 }
 
 function collectManualCurrencies(): string[] {
@@ -169,6 +215,11 @@ export async function fetchRates(currencies: string[]): Promise<RatesResult> {
   try {
     const live = await fetchLive(needed);
     const cached = readCache();
+    const history = readHistory();
+    if (cached && cached.date < live.date && !history.snapshots.some((snapshot) => snapshot.date === cached.date)) {
+      writeHistory(cached);
+      history.snapshots.push(cached);
+    }
     const merged: CacheFile = {
       date: live.date,
       base: "KRW",
@@ -176,8 +227,10 @@ export async function fetchRates(currencies: string[]): Promise<RatesResult> {
     };
 
     writeCache(merged);
+    const previous = previousSnapshot(history, live.date, cached ?? undefined);
+    writeHistory(merged);
     console.log(`[fetch-rates] Saved ${Object.keys(live.rates).length} live rates as of ${live.date}.`);
-    return { ...merged, source: "live" };
+    return { ...merged, source: "live", previous };
   } catch (err) {
     console.warn(`[fetch-rates] Live fetch failed: ${(err as Error).message}`);
     const cached = readCache();
@@ -190,7 +243,11 @@ export async function fetchRates(currencies: string[]): Promise<RatesResult> {
     }
 
     console.warn(`[fetch-rates] Falling back to cached rates as of ${cached.date}.`);
-    return { ...cached, source: "cache" };
+    return {
+      ...cached,
+      source: "cache",
+      previous: previousSnapshot(readHistory(), cached.date),
+    };
   }
 }
 
