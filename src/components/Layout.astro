@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import socialImages from "../../public/social-images.json";
 import { SITE, SITE_KEYWORDS, absoluteUrl, withBase } from "../lib/site.ts";
 
 interface Props {
@@ -16,7 +17,7 @@ const {
   title,
   description = SITE.description,
   ratesAsOf,
-  image = "/sublink-og-268e02e460a5.jpg",
+  image = socialImages[/^ko(?:[-_]|$)/i.test(SITE.language) ? "ko" : "en"].url,
   imageAlt = "서브링크 구독 서비스 국가별 가격 비교",
   type = "website",
   jsonLd,
